@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d127b4f9-8d72-439f-af34-3e6deb30884d" name="Default" comment="" />
+    <list default="true" id="d127b4f9-8d72-439f-af34-3e6deb30884d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/html/distributionManagement/delivery-fix.html" afterPath="$PROJECT_DIR$/html/distributionManagement/delivery-fix.html" />
+      <change beforePath="$PROJECT_DIR$/html/processPackage/inventoryManagement/warehouseInfo-add.html" afterPath="$PROJECT_DIR$/html/processPackage/inventoryManagement/warehouseInfo-add.html" />
+      <change beforePath="$PROJECT_DIR$/html/processPackage/inventoryManagement/warehouseInfo-fix.html" afterPath="$PROJECT_DIR$/html/processPackage/inventoryManagement/warehouseInfo-fix.html" />
+      <change beforePath="$PROJECT_DIR$/html/productionControl/inventoryCManagement/warehouseInfo-add.html" afterPath="$PROJECT_DIR$/html/productionControl/inventoryCManagement/warehouseInfo-add.html" />
+      <change beforePath="$PROJECT_DIR$/html/productionControl/inventoryCManagement/warehouseInfo-fix.html" afterPath="$PROJECT_DIR$/html/productionControl/inventoryCManagement/warehouseInfo-fix.html" />
+      <change beforePath="$PROJECT_DIR$/html/salesManagement/supplier/addOriginalPlace.html" afterPath="$PROJECT_DIR$/html/salesManagement/supplier/addOriginalPlace.html" />
+      <change beforePath="$PROJECT_DIR$/html/salesManagement/supplier/addSupplier-baseInfo.html" afterPath="$PROJECT_DIR$/html/salesManagement/supplier/addSupplier-baseInfo.html" />
+      <change beforePath="$PROJECT_DIR$/html/salesManagement/supplier/addSupplier-qualifications.html" afterPath="$PROJECT_DIR$/html/salesManagement/supplier/addSupplier-qualifications.html" />
+      <change beforePath="$PROJECT_DIR$/html/systemManagement/enterprise/enterprise-info-base.html" afterPath="$PROJECT_DIR$/html/systemManagement/enterprise/enterprise-info-base.html" />
+      <change beforePath="$PROJECT_DIR$/html/systemManagement/enterprise/enterprise-info-qualification.html" afterPath="$PROJECT_DIR$/html/systemManagement/enterprise/enterprise-info-qualification.html" />
+      <change beforePath="$PROJECT_DIR$/html/systemManagement/origin/addOrigin.html" afterPath="$PROJECT_DIR$/html/systemManagement/origin/addOrigin.html" />
+      <change beforePath="$PROJECT_DIR$/html/systemManagement/origin/modifyOriginInfo.html" afterPath="$PROJECT_DIR$/html/systemManagement/origin/modifyOriginInfo.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,12 +26,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="enterprise-info-base.html" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="enterprise-info-base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/systemManagement/enterprise/enterprise-info-base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="57" />
+            <state relative-caret-position="293">
+              <caret line="94" column="52" lean-forward="false" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -27,18 +40,18 @@
       <file leaf-file-name="delivery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/distributionManagement/delivery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="1170">
               <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inventoryManagement.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="inventoryManagement.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/processPackage/inventoryManagement/inventoryManagement.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="45">
+              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -49,22 +62,28 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&lt;a href=&quot;/html/</find>
+      <find>http://api.map.baidu.com/api?v=2.0&amp;amp;ak=Bd55XdcjoedHhlwaLoGGeIGKxA3EneDV</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>&lt;a href=&quot;../</replace>
       <replace>&lt;a href=&quot;../../</replace>
+      <replace>https://api.map.baidu.com/api?v=2.0&amp;amp;ak=Bd55XdcjoedHhlwaLoGGeIGKxA3EneDV</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\work\JUSFOUN\做过的项目\本地化项目\溯源大数据（企业端）\html\distributionManagement</dir>
       <dir>E:\work\JUSFOUN\做过的项目\本地化项目\溯源大数据（企业端）\html</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/html/distributionManagement/delivery.html" />
         <option value="$PROJECT_DIR$/html/processPackage/inventoryManagement/inventoryManagement.html" />
+        <option value="$PROJECT_DIR$/html/systemManagement/enterprise/enterprise-info-base.html" />
       </list>
     </option>
   </component>
@@ -74,12 +93,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -95,8 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,24 +131,21 @@
               <item name="溯源大数据（企业端）" type="b2602c69:ProjectViewProjectNode" />
               <item name="溯源大数据（企业端）" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="productionControl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="溯源大数据（企业端）" type="b2602c69:ProjectViewProjectNode" />
-              <item name="溯源大数据（企业端）" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="salesManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="systemManagement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="溯源大数据（企业端）" type="b2602c69:ProjectViewProjectNode" />
               <item name="溯源大数据（企业端）" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="systemManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="enterprise" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,31 +180,33 @@
       <option name="presentableId" value="Default" />
       <updated>1520055793882</updated>
       <workItem from="1520055798355" duration="510000" />
+      <workItem from="1520057067255" duration="82000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="510000" />
+    <option name="totallyTimeSpent" value="592000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -204,17 +221,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1550">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/systemManagement/enterprise/enterprise-info-base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="1125">
           <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="57" />
           <folding />
         </state>
@@ -222,7 +231,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/distributionManagement/delivery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="1170">
           <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="54" />
           <folding />
         </state>
@@ -230,8 +239,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/processPackage/inventoryManagement/inventoryManagement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="1125">
           <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1550">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/distributionManagement/delivery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/processPackage/inventoryManagement/inventoryManagement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/systemManagement/enterprise/enterprise-info-base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="94" column="52" lean-forward="false" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
           <folding />
         </state>
       </provider>
