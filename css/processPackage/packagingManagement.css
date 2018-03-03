@@ -1,0 +1,108 @@
+.form-item .packman-wrapper {
+  width: 530px;
+}
+.form-item .packman-wrapper li {
+  margin-bottom: 25px;
+}
+.form-item .packman-wrapper li .c-area {
+  width: 440px;
+}
+.form-item .packman-wrapper .all {
+  height: auto;
+}
+.form-item .sel-area {
+  font-size: 14px;
+  background: #eff7f3;
+  padding: 25px 25px 10px 20px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  text-align: center;
+  color: #4b715d;
+}
+.form-item .sel-area .c-input {
+  width: 218px;
+}
+.form-item .sel-area .item-half {
+  width: 50%;
+}
+.form-item .sel-area .item-half .c-input {
+  width: 298px;
+}
+.form-item .sel-area .item-half .c-input2 {
+  width: 138px;
+}
+.form-item .sel-area .item-half span.line {
+  color: #b2d3c2;
+  padding: 0 7px;
+}
+.form-item .sel-area .item-left {
+  width: 40%;
+}
+.form-item .sel-area .item-middle {
+  width: 40%;
+}
+.form-item .sel-area .item-right {
+  width: 20%;
+}
+.form-item .btn-area {
+  text-align: center;
+}
+.form-item .btn-area div {
+  padding: 7px 0px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 110px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.form-item .btn-area div.search {
+  box-shadow: 0 0 10px #fdd9c1;
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  background: -webkit-linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  background: -ms-linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  background: -moz-linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  background: #ff9000;
+  color: #fff;
+  border: 1px solid #ff7b03;
+}
+.form-item .btn-area div.search i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 24px;
+  top: 10px;
+  background: url(../../../img/search.png) no-repeat;
+}
+.form-item .btn-area div.edit {
+  box-shadow: 0 0 10px #dbf2e6;
+  background: linear-gradient(to right, #2bb95d, #168859);
+  color: #fff;
+  border: 1px solid #44b669;
+}
+.form-item .btn-area div.edit i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: url(../../img/add.png) no-repeat;
+}
+.con-bottom {
+  margin-bottom: 20px;
+}
+.layui-layer-page .layui-layer-content {
+  position: relative;
+  height: 138px !important;
+}
+.layui-form li.ie9 span.l-title {
+  width: 85px;
+  float: left;
+  margin-left: -16px;
+}
+.btn-area .search span {
+  margin-left: 10px;
+}

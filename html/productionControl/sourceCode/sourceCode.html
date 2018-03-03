@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN">
+<html>
+
+<head>
+    <title>生产溯源码</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="../../../libs/layui/css/layui.css" />
+    <link rel="stylesheet" href="../../../css/common.css" />
+    <link rel="stylesheet" href="../../../css/layout.css" />
+    <link rel="stylesheet" href="../../../css/form.css" />
+    <link rel="stylesheet" href="../../../css/table.css" />
+    <link rel="stylesheet" href="../../../css/productionControl/sourceCode.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-box"><a class="header-left" href=""><i class="logo"></i><span>农产品溯源服务平台</span></a>
+            <div class="header-right">
+                <div class="user-info"><i class="user-logo"></i><span class="user-name">欢迎 X X 合作社登录，您已登录1小时10分</span></div>
+                <div class="person-set"><i class="person-set-logo"></i><span class="person-set-tit">修改密码</span></div><a class="exit" href="/html/login.html"><i class="person-set-logo"></i><span class="person-set-tit">退出</span></a></div>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-list cf">
+            <li class="first">
+                <div class="shadow"></div><a href="../../productionControl/productionPlanManagement/maintain.html"><i class="produce-manage"></i><span>生产管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../processPackage/purchasingManagement/purchasingManagement.html"><i class="package-manage"></i><span>加工包装</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../distributionManagement/delivery.html"><i class="ciculate-manage"></i><span>流通管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../salesManagement/customer/customerManagement.html"><i class="sell-manage"></i><span>销售管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="#"><i class="quality-manage"></i><span>质量管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../systemManagement/enterprise/enterprise-info-base.html"><i class="system-manage"></i><span>系统管理</span></a></li>
+        </ul>
+    </div>
+    <div class="main-body">
+        <div class="leftbar leftbar1">
+            <ul class="list">
+                <li class="item"><a class="itemTitle" href="../productionPlanManagement/maintain.html"><i class="icon1"></i><span>生产计划管理</span></a>
+                    <ul class="itemlist">
+                        <li><a href="../productionPlanManagement/maintain.html">生产计划维护</a></li>
+                        <li><a href="../productionPlanManagement/history.html">生产计划历史</a></li>
+                        <li><a href="#">生产计划日历</a></li>
+                    </ul>
+                </li>
+                <li class="item"><a class="itemTitle" href="../farmOperationManagement/farmOperationManagement.html"><i class="icon2"></i><span>农事活动管理</span></a></li>
+                <li class="item"><a class="itemTitle" href="#"><i class="icon3"></i><span>物联网</span></a>
+                    <ul class="itemlist">
+                        <li><a href="">设备管理</a></li>
+                        <li><a href="#">实时监控</a></li>
+                        <li><a href="#">视频管理</a></li>
+                    </ul>
+                </li>
+                <li class="item"><a class="itemTitle" href="../harvestRecord/harvestRecord.html"><i class="icon4"></i><span>采收记录</span></a></li>
+                <li class="item"><a class="itemTitle" href="../packagingManagement/packagingManagement.html"><i class="icon6"></i><span>包装管理</span></a></li>
+                <li class="item"><a class="itemTitle" href="../sourceCode/sourceCode.html"><i class="icon7"></i><span>生产溯源码</span></a></li>
+                <li class="item"><a class="itemTitle" href="../inventoryCManagement/warehousingManagement.html"><i class="icon8"></i><span>库存管理</span></a>
+                    <ul class="itemlist">
+                        <li><a href="../inventoryCManagement/warehousingManagement.html">入库管理</a></li>
+                        <li><a href="../inventoryCManagement/warehouseInfo.html">仓库信息</a></li>
+                        <li><a href="../inventoryCManagement/inventoryManagement.html">盘库管理</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="content-box minHei2">
+            <div class="content">
+                <div class="con-top form-item">
+                    <form class="layui-form">
+                        <ul class="sel-area cf">
+                            <li class="item-half"><span class="l-title">包装批次：</span><input class="c-input" type="text" /></li>
+                            <li class="item-half"><span class="l-title">采收批次：</span><input class="c-input" type="text" /></li>
+                            <li class="item-half"><span class="l-title">产品名称：</span><input class="c-input" type="text" /></li>
+                            <li class="item-half"><span class="l-title">打印次数：</span><input class="c-input c-input2" type="text" /><span class="line">-</span><input class="c-input c-input2" type="text" /></li>
+                        </ul>
+                        <div class="btn-area">
+                            <div class="search"><span class="marL10">查&nbsp;&nbsp;询</span><i></i></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="con-bottom">
+                    <div class="tablewrap">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>包装批次</th>
+                                    <th>采收批次</th>
+                                    <th>产品名称</th>
+                                    <th>生成二维码总量</th>
+                                    <th>剩余数量</th>
+                                    <th>打印次数</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="odd">
+                                    <td>16年003批次</td>
+                                    <td>16年003批次</td>
+                                    <td>京东板栗</td>
+                                    <td>500</td>
+                                    <td>500</td>
+                                    <td>5</td>
+                                    <td><a class="outputCode" href="./sourceCode-output.html"> 生成溯源码</a><a class="check" href="./sourceCode-details.html">查看</a><a class="printCode" href="./sourceCode-print.html"> 打印溯源码</a><a class="secondOutput" href="./sourceCode-add.html">追加生成</a></td>
+                                </tr>
+                                <tr class="even">
+                                    <td>16年003批次</td>
+                                    <td>16年003批次</td>
+                                    <td>京东板栗</td>
+                                    <td>500</td>
+                                    <td>500</td>
+                                    <td>5</td>
+                                    <td><a class="outputCode" href="./sourceCode-output.html"> 生成溯源码</a><a class="check" href="./sourceCode-details.html">查看</a><a class="printCode" href="./sourceCode-print.html"> 打印溯源码</a><a class="secondOutput" href="./sourceCode-add.html">追加生成</a></td>
+                                </tr>
+                                <tr class="odd">
+                                    <td>16年003批次</td>
+                                    <td>16年003批次</td>
+                                    <td>京东板栗</td>
+                                    <td>500</td>
+                                    <td>500</td>
+                                    <td>5</td>
+                                    <td><a class="outputCode" href="./sourceCode-output.html"> 生成溯源码</a><a class="check" href="./sourceCode-details.html">查看</a><a class="printCode" href="./sourceCode-print.html"> 打印溯源码</a><a class="secondOutput" href="./sourceCode-add.html">追加生成</a></td>
+                                </tr>
+                                <tr class="even">
+                                    <td>16年003批次</td>
+                                    <td>16年003批次</td>
+                                    <td>京东板栗</td>
+                                    <td>500</td>
+                                    <td>500</td>
+                                    <td>5</td>
+                                    <td><a class="outputCode" href="./sourceCode-output.html"> 生成溯源码</a><a class="check" href="./sourceCode-details.html">查看</a><a class="printCode" href="./sourceCode-print.html"> 打印溯源码</a><a class="secondOutput" href="./sourceCode-add.html">追加生成</a></td>
+                                </tr>
+                                <tr class="odd">
+                                    <td>16年003批次</td>
+                                    <td>16年003批次</td>
+                                    <td>京东板栗</td>
+                                    <td>500</td>
+                                    <td>500</td>
+                                    <td>5</td>
+                                    <td><a class="outputCode" href="./sourceCode-output.html"> 生成溯源码</a><a class="check" href="./sourceCode-details.html">查看</a><a class="printCode" href="./sourceCode-print.html"> 打印溯源码</a><a class="secondOutput" href="./sourceCode-add.html">追加生成</a></td>
+                                </tr>
+                                <tr class="even">
+                                    <td>16年003批次</td>
+                                    <td>16年003批次</td>
+                                    <td>京东板栗</td>
+                                    <td>500</td>
+                                    <td>500</td>
+                                    <td>5</td>
+                                    <td><a class="outputCode" href="./sourceCode-output.html"> 生成溯源码</a><a class="check" href="./sourceCode-details.html">查看</a><a class="printCode" href="./sourceCode-print.html"> 打印溯源码</a><a class="secondOutput" href="./sourceCode-add.html">追加生成</a></td>
+                                </tr>
+                                <tr class="odd">
+                                    <td>16年003批次</td>
+                                    <td>16年003批次</td>
+                                    <td>京东板栗</td>
+                                    <td>500</td>
+                                    <td>500</td>
+                                    <td>5</td>
+                                    <td><a class="outputCode" href="./sourceCode-output.html"> 生成溯源码</a><a class="check" href="./sourceCode-details.html">查看</a><a class="printCode" href="./sourceCode-print.html"> 打印溯源码</a><a class="secondOutput" href="./sourceCode-add.html">追加生成</a></td>
+                                </tr>
+                                <tr class="even">
+                                    <td>16年003批次</td>
+                                    <td>16年003批次</td>
+                                    <td>京东板栗</td>
+                                    <td>500</td>
+                                    <td>500</td>
+                                    <td>5</td>
+                                    <td><a class="outputCode" href="./sourceCode-output.html"> 生成溯源码</a><a class="check" href="./sourceCode-details.html">查看</a><a class="printCode" href="./sourceCode-print.html"> 打印溯源码</a><a class="secondOutput" href="./sourceCode-add.html">追加生成</a></td>
+                                </tr>
+                                <tr class="odd">
+                                    <td>16年003批次</td>
+                                    <td>16年003批次</td>
+                                    <td>京东板栗</td>
+                                    <td>500</td>
+                                    <td>500</td>
+                                    <td>5</td>
+                                    <td><a class="outputCode" href="./sourceCode-output.html"> 生成溯源码</a><a class="check" href="./sourceCode-details.html">查看</a><a class="printCode" href="./sourceCode-print.html"> 打印溯源码</a><a class="secondOutput" href="./sourceCode-add.html">追加生成</a></td>
+                                </tr>
+                                <tr class="even">
+                                    <td>16年003批次</td>
+                                    <td>16年003批次</td>
+                                    <td>京东板栗</td>
+                                    <td>500</td>
+                                    <td>500</td>
+                                    <td>5</td>
+                                    <td><a class="outputCode" href="./sourceCode-output.html"> 生成溯源码</a><a class="check" href="./sourceCode-details.html">查看</a><a class="printCode" href="./sourceCode-print.html"> 打印溯源码</a><a class="secondOutput" href="./sourceCode-add.html">追加生成</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="pagewrap cf">
+                        <div class="totalRecord fl"><span>共找到</span><span class="num">30</span><span>条记录</span></div>
+                        <div id="page"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright Jusfoun.com © 2016-2017 河北遵化溯源大数据信息技术有限公司</p>
+        <p>技术支持 九次方大数据信息集团有限公司</p>
+    </div>
+</body>
+<script src="../../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="../../../libs/layui/layui.js"></script>
+<script src="../../../js/common.js"></script>
+<script src="../../../js/productionControl/sourceCode/sourceCode.js"></script>
+
+</html>

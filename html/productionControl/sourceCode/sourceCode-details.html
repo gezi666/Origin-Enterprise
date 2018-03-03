@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN">
+<html>
+
+<head>
+    <title>生产溯源码-详情</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="../../../libs/layui/css/layui.css" />
+    <link rel="stylesheet" href="../../../css/common.css" />
+    <link rel="stylesheet" href="../../../css/layout.css" />
+    <link rel="stylesheet" href="../../../css/form.css" />
+    <link rel="stylesheet" href="../../../css/table.css" />
+    <link rel="stylesheet" href="../../../css/productionControl/sourceCode.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-box"><a class="header-left" href=""><i class="logo"></i><span>农产品溯源服务平台</span></a>
+            <div class="header-right">
+                <div class="user-info"><i class="user-logo"></i><span class="user-name">欢迎 X X 合作社登录，您已登录1小时10分</span></div>
+                <div class="person-set"><i class="person-set-logo"></i><span class="person-set-tit">修改密码</span></div><a class="exit" href="/html/login.html"><i class="person-set-logo"></i><span class="person-set-tit">退出</span></a></div>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-list cf">
+            <li class="first">
+                <div class="shadow"></div><a href="../../productionControl/productionPlanManagement/maintain.html"><i class="produce-manage"></i><span>生产管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../processPackage/purchasingManagement/purchasingManagement.html"><i class="package-manage"></i><span>加工包装</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../distributionManagement/delivery.html"><i class="ciculate-manage"></i><span>流通管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../salesManagement/customer/customerManagement.html"><i class="sell-manage"></i><span>销售管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="#"><i class="quality-manage"></i><span>质量管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../systemManagement/enterprise/enterprise-info-base.html"><i class="system-manage"></i><span>系统管理</span></a></li>
+        </ul>
+    </div>
+    <div class="main-body">
+        <div class="leftbar leftbar1">
+            <ul class="list">
+                <li class="item"><a class="itemTitle" href="../productionPlanManagement/maintain.html"><i class="icon1"></i><span>生产计划管理</span></a>
+                    <ul class="itemlist">
+                        <li><a href="../productionPlanManagement/maintain.html">生产计划维护</a></li>
+                        <li><a href="../productionPlanManagement/history.html">生产计划历史</a></li>
+                        <li><a href="#">生产计划日历</a></li>
+                    </ul>
+                </li>
+                <li class="item"><a class="itemTitle" href="../farmOperationManagement/farmOperationManagement.html"><i class="icon2"></i><span>农事活动管理</span></a></li>
+                <li class="item"><a class="itemTitle" href="#"><i class="icon3"></i><span>物联网</span></a>
+                    <ul class="itemlist">
+                        <li><a href="">设备管理</a></li>
+                        <li><a href="#">实时监控</a></li>
+                        <li><a href="#">视频管理</a></li>
+                    </ul>
+                </li>
+                <li class="item"><a class="itemTitle" href="../harvestRecord/harvestRecord.html"><i class="icon4"></i><span>采收记录</span></a></li>
+                <li class="item"><a class="itemTitle" href="../packagingManagement/packagingManagement.html"><i class="icon6"></i><span>包装管理</span></a></li>
+                <li class="item"><a class="itemTitle" href="../sourceCode/sourceCode.html"><i class="icon7"></i><span>生产溯源码</span></a></li>
+                <li class="item"><a class="itemTitle" href="../inventoryCManagement/warehousingManagement.html"><i class="icon8"></i><span>库存管理</span></a>
+                    <ul class="itemlist">
+                        <li><a href="../inventoryCManagement/warehousingManagement.html">入库管理</a></li>
+                        <li><a href="../inventoryCManagement/warehouseInfo.html">仓库信息</a></li>
+                        <li><a href="../inventoryCManagement/inventoryManagement.html">盘库管理</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="content-box minHei2">
+            <div class="content">
+                <div class="tab-item form-item half">
+                    <div class="product-title"><i class="title-icon"></i><span>基础信息</span></div>
+                    <div class="details-wrapper">
+                        <ul class="cf">
+                            <li><span class="l-tit">包装批次：</span><span class="r-tit">第一批次</span></li>
+                            <li><span class="l-tit">采收批次：</span><span class="r-tit">第一批次</span></li>
+                            <li><span class="l-tit">生产计划编号：</span><span class="r-tit">1111111111</span></li>
+                            <li><span class="l-tit">产品分类：</span><span class="r-tit">苹果</span></li>
+                            <li><span class="l-tit">产品名称：</span><span class="r-tit">红富士</span></li>
+                            <li><span class="l-tit">包装规格：</span><span class="r-tit">100kg/包</span></li>
+                            <li><span class="l-tit">包装数量：</span><span class="r-tit">300</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-item form-item half">
+                    <div class="product-title"><i class="title-icon"></i><span>二维码信息</span></div>
+                    <div class="details-wrapper1">
+                        <ul class="cf">
+                            <li class="first-li"><span class="numspan">生成二维码总数量：</span><span class="totalnum">350</span></li>
+                            <li><span class="numspan">剩余数量：</span><span class="totalnum">150</span></li>
+                        </ul>
+                        <div class="details-table">
+                            <h1 class="tit">生成记录</h1>
+                            <div class="tablewrap">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>生成次数</th>
+                                            <th>生成时间</th>
+                                            <th>生成数量</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="odd">
+                                            <td>1</td>
+                                            <td>2015-07-21</td>
+                                            <td>50</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td>2</td>
+                                            <td>2015-07-21</td>
+                                            <td>100</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="details-table">
+                            <h1 class="tit">追加记录</h1>
+                            <div class="tablewrap">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>追加次数</th>
+                                            <th>追加时间</th>
+                                            <th>追加数量</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="odd">
+                                            <td>1</td>
+                                            <td>2015-07-21</td>
+                                            <td>50</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td>2</td>
+                                            <td>2015-07-21</td>
+                                            <td>100</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-item form-item half">
+                    <div class="product-title"><i class="title-icon"></i><span>打印信息</span></div>
+                    <div class="print-info">
+                        <ul>
+                            <li><span>2015-10-10 10:00</span><span>打印数量：10</span><span class="erweima">二维码格式：<img src="../../../img/erweima1.jpg"/></span></li>
+                            <li><span>2015-10-10 10:00</span><span>打印数量：10</span><span class="erweima">二维码格式：<img src="../../../img/erweima.jpg"/></span></li>
+                        </ul>
+                    </div>
+                    <form class="layui-form">
+                        <ul>
+                            <li class="btn-box"><span class="cancel">返回</span></li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright Jusfoun.com © 2016-2017 河北遵化溯源大数据信息技术有限公司</p>
+        <p>技术支持 九次方大数据信息集团有限公司</p>
+    </div>
+</body>
+<script src="../../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="../../../libs/layui/layui.js"></script>
+<script src="../../../js/common.js"></script>
+<script src="../../../js/productionControl/sourceCode/sourceCode-details.js"></script>
+
+</html>

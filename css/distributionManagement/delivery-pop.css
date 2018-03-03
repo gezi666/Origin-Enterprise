@@ -1,0 +1,118 @@
+#editLayer_box {
+  padding: 0 40px;
+  display: none;
+}
+#editLayer_box2 {
+  padding: 0 40px;
+  display: none;
+}
+#editLayer_box_ent {
+  padding: 40px 40px 0;
+  display: none;
+}
+.layui-layer-title {
+  background-color: #017945 !important;
+  background-image: url("../../img/layer-title-bg.png") !important;
+  background-position: right -14px !important;
+  background-repeat: no-repeat !important;
+  color: #fff !important;
+}
+.layui-layer-setwin .layui-layer-ico {
+  background-image: url("../../img/layer-title-close.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: 0 0 !important;
+}
+.layui-form-item .layui-form-checkbox,
+.layui-form-item .layui-form-checkbox[lay-skin=primary] {
+  margin-top: 0px;
+}
+.sel-con {
+  width: 70%;
+  height: 32px;
+  margin: 0 auto 50px;
+}
+.sel-con .layui-input {
+  height: 32px;
+  color: #4b715d;
+  border-color: #c1dbcd;
+}
+.sel-area {
+  font-size: 14px;
+  background: #eff7f3;
+  padding: 25px 25px 10px 20px;
+  margin: -15px 0px 20px 0px;
+  border-radius: 4px;
+  text-align: center;
+  color: #4b715d;
+}
+.sel-area .item-half {
+  width: 300px;
+  margin-right: 20px;
+}
+.sel-area .item-half .c-input {
+  width: 208px;
+  height: 32px;
+}
+.sel-area .item-half .layui-form-select {
+  margin-left: 30px;
+  width: 200px;
+}
+.sel-area .item-half .layui-form-select .layui-input {
+  width: 173px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 5px;
+  border-color: #bbd8c9;
+}
+.sel-area .item-half .layui-form-select i {
+  z-index: 10;
+  border-top-color: #fff;
+  right: 8px;
+}
+.sel-area .item-half .layui-form-select:after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 32px;
+  background-color: #2aa161;
+  border: 0;
+  top: 0px;
+  right: 0px;
+  border-color: #10a645;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.sel-area .mr60 {
+  margin-right: 60px;
+}
+.sel-area .btn-area {
+  width: 110px;
+}
+.sel-area .btn-area div {
+  padding: 7px 0px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 110px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.sel-area .btn-area div.search {
+  box-shadow: 0 0 10px #fdd9c1;
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  color: #fff;
+}
+.sel-area .btn-area div.search i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 24px;
+  top: 10px;
+  background: url(../../../img/search.png) no-repeat;
+}
+.sel-area .btn-area.w40 {
+  width: 40px;
+}

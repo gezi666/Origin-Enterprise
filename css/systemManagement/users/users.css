@@ -1,0 +1,62 @@
+@import '../../common.css';
+@import '../enterprise/base-info.css';
+@import '../../layout.css';
+@import '../../form.css';
+.form-item li .c-area {
+  width: calc(100% - 86px);
+}
+.center {
+  text-align: center;
+}
+.form-item .change-wrapper {
+  width: 590px;
+  margin: 35px auto;
+}
+.form-item .change-wrapper ul li input {
+  width: 500px;
+}
+.form-item .change-wrapper1 {
+  margin: 35px  0;
+  background: #eff7f3;
+}
+.form-item .change-wrapper1 .radio-wrapper {
+  padding: 45px 0;
+  text-align: center;
+}
+.form-item .change-wrapper1 .radio-wrapper .layui-form-radio {
+  margin: 6px 60px 0 0;
+}
+.treeListCon {
+  margin: 35px 0 0 0;
+}
+.treeListCon .treeCon {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.newStyle li {
+  text-align: center;
+}
+.newStyle li .c-input,
+.newStyle li .c-area {
+  width: 60%;
+}
+.newStyle li .layui-input-block {
+  display: inline-block;
+  margin-left: 0;
+  width: 60%;
+  text-align: left;
+}
+.newStyle li .layui-input-block .layui-form-radio {
+  margin-top: 0;
+}
+.newStyle .autoLine {
+  height: auto;
+}
+.newStyle .autoLine .l-title {
+  margin-left: calc(20% - 43px);
+}

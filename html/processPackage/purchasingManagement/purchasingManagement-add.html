@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN">
+<html>
+
+<head>
+    <title>采购管理-添加采购信息</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="../../../libs/layui/css/layui.css" />
+    <link rel="stylesheet" href="../../../css/common.css" />
+    <link rel="stylesheet" href="../../../css/layout.css" />
+    <link rel="stylesheet" href="../../../css/table.css" />
+    <link rel="stylesheet" href="../../../css/form.css" />
+    <link rel="stylesheet" href="../../../css/processPackage/purchasingManagement-add.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-box"><a class="header-left" href=""><i class="logo"></i><span>农产品溯源服务平台</span></a>
+            <div class="header-right">
+                <div class="user-info"><i class="user-logo"></i><span class="user-name">欢迎 X X 合作社登录，您已登录1小时10分</span></div>
+                <div class="person-set"><i class="person-set-logo"></i><span class="person-set-tit">修改密码</span></div><a class="exit" href="/html/login.html"><i class="person-set-logo"></i><span class="person-set-tit">退出</span></a></div>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-list cf">
+            <li class="first">
+                <div class="shadow"></div><a href="../../productionControl/productionPlanManagement/maintain.html"><i class="produce-manage"></i><span>生产管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../processPackage/purchasingManagement/purchasingManagement.html"><i class="package-manage"></i><span>加工包装</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../distributionManagement/delivery.html"><i class="ciculate-manage"></i><span>流通管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../salesManagement/customer/customerManagement.html"><i class="sell-manage"></i><span>销售管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="#"><i class="quality-manage"></i><span>质量管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../systemManagement/enterprise/enterprise-info-base.html"><i class="system-manage"></i><span>系统管理</span></a></li>
+        </ul>
+    </div>
+    <div class="main-body cf">
+        <div class="leftbar leftbar2">
+            <ul class="list">
+                <li class="item"><a class="itemTitle" href="../purchasingManagement/purchasingManagement.html"><i class="icon1"></i><span>采购管理</span></a></li>
+                <li class="item"><a class="itemTitle" href="../processingManagement/processingManagement.html"><i class="icon2"></i><span>加工管理</span></a></li>
+                <li class="item"><a class="itemTitle" href="../packagingManagement/packagingManagement.html"><i class="icon3"></i><span>包装管理</span></a></li>
+                <li class="item"><a class="itemTitle" href="../sourceCode/sourceCode.html"><i class="icon4"></i><span>加工溯源码</span></a></li>
+                <li class="item"><a class="itemTitle" href="#"><i class="icon5"></i><span>检验检测</span></a></li>
+                <li class="item"><a class="itemTitle" href="../inventoryManagement/warehousingManagement.html"><i class="icon6"></i><span>库存管理</span></a>
+                    <ul class="itemlist">
+                        <li><a href="../inventoryManagement/warehousingManagement.html">采购入库管理</a></li>
+                        <li><a href="../inventoryManagement/productWarehousingManagement.html">产品入库管理</a></li>
+                        <li><a href="../inventoryManagement/warehouseInfo.html">仓库信息</a></li>
+                        <li><a href="../inventoryManagement/inventoryManagement.html">盘库管理</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="content-box fl">
+            <div class="tab-content form-item">
+                <div class="product-title"><i class="title-icon"></i><span>供应商信息</span></div>
+                <form class="layui-form">
+                    <ul>
+                        <li class="ie9"><span class="l-title">选择供应商：</span><select name="interest" lay-filter="aihao"><option></option><option value="0">请选择</option></select><span class="add" lay-submit="lay-submit">添加供应商</span></li>
+                        <li class="ie9"><span class="l-title">产品分类：</span><select name="interest" lay-filter="aihao"><option></option><option value="0">请选择</option></select></li>
+                        <li class="ie9"><span class="l-title">产品名称：</span><select name="interest" lay-filter="aihao"><option></option><option value="0">请选择</option></select></li>
+                        <li class="autoLine">
+                            <div class="centerArea cf"><span class="l-title fl">产品图片：</span>
+                                <div class="pic fl">
+                                    <ul class="enclosureCon">
+                                        <li class="alreadyUpload">
+                                            <div class="delFJ"></div>
+                                            <div class="imgCon"><img width="120" height="152" src="../../../img/zs.png" /></div>
+                                        </li>
+                                        <li><input class="layui-upload-file disNone" type="file" name="file" /><span class="upload">上传</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="autoLine">
+                            <div class="centerArea cf"><span class="l-title fl">产品介绍：</span><textarea class="c-area fl"></textarea></div>
+                        </li>
+                    </ul>
+                </form>
+                <div class="product-title"><i class="title-icon"></i><span>采购信息</span></div>
+                <form class="layui-form">
+                    <ul>
+                        <li class="alignL"><span class="l-title ml87">采购单号：</span><input class="c-input w623" type="text" lay-verify="required" /><span class="required">*</span></li>
+                        <li class="w50"><span class="l-title">采购时间：</span><input class="c-input" type="text" onclick="layui.laydate({elem: this,  istime: true, format: 'YYYY-MM-DD '})" /><i class="cal"></i><span class="required">*</span></li>
+                        <li class="w50"><span class="l-title">采购量：</span><input class="c-input" type="text" lay-verify="required" /><span class="required">*</span></li>
+                        <li class="w50"><span class="l-title">采购人：</span><input class="c-input" type="text" lay-verify="required" /><span class="required">*</span></li>
+                        <li class="w50"><span class="l-title">联系电话：</span><input class="c-input" type="text" lay-verify="required" /><span class="required"></span></li>
+                        <li class="mt10"><span class="submit" lay-submit="lay-submit">保存</span><span class="cancel" lay-submit="lay-submit">取消</span></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright Jusfoun.com © 2016-2017 河北遵化溯源大数据信息技术有限公司</p>
+        <p>技术支持 九次方大数据信息集团有限公司</p>
+    </div>
+</body>
+<script src="../../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="../../../libs/layui/layui.js"></script>
+<script src="../../../js/common.js"></script>
+<script src="../../../js/processPackage/purchasingManagement/purchasingManagement-add.js"></script>
+
+</html>

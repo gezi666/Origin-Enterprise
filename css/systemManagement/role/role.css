@@ -1,0 +1,75 @@
+span.marL12 {
+  margin-left: 12px;
+}
+.sel-area {
+  font-size: 14px;
+  background: #eff7f3;
+  padding: 25px 35px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #4b715d;
+}
+.sel-area .sel-left {
+  margin-right: 120px;
+}
+.sel-area .sel-left input {
+  width: 453px;
+  height: 32px;
+  border: 1px solid #b2d3c2;
+  border-radius: 4px;
+  outline: none;
+  padding: 0 10px;
+  margin: 0 4px;
+  background: #fefefd;
+}
+.sel-area .btn-area {
+  text-align: center;
+}
+.sel-area .btn-area div {
+  padding: 7px 0px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 110px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.sel-area .btn-area div.search {
+  box-shadow: 0 0 10px #fdd9c1;
+  background: #ff9000;
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  color: #fff;
+}
+.sel-area .btn-area div.search i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 24px;
+  top: 10px;
+  background: url(../../../img/search.png) no-repeat;
+}
+.sel-area .btn-area div.add {
+  background: #fbfdfc;
+  text-align: right;
+  box-shadow: 0 0 10px #dbf2e6;
+  color: #44b669;
+  border: 1px solid #44b669;
+}
+.sel-area .btn-area div.add span {
+  margin-right: 15px;
+}
+.sel-area .btn-area div.add i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  background: url(../../../img/add.png) no-repeat;
+}
+.sel-area .btn-area div.add .i2 {
+  top: 9px;
+}

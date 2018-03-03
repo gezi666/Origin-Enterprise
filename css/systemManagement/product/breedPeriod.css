@@ -1,0 +1,117 @@
+@import '../../common.css';
+@import '../origin/originArea-authentic.css';
+@import '../../layout.css';
+@import '../../form.css';
+.breed-form .breed-wrapper {
+  width: 540px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.breed-form .breed-wrapper li {
+  margin-bottom: 25px;
+}
+.breed-form .breed-wrapper li span {
+  width: 90px;
+  padding-right: 5px;
+}
+.breed-form .breed-wrapper li span.required {
+  margin-left: 7px;
+}
+.breed-form .breed-wrapper li .breed-select {
+  position: relative;
+  float: left;
+  width: 200px;
+}
+.breed-form .breed-wrapper li .breed-select select {
+  display: none;
+}
+.breed-form .breed-wrapper li .breed-select .layui-form-select {
+  width: 100%;
+}
+.breed-form .breed-wrapper li .breed-select .layui-form-select input {
+  color: #4b715d;
+}
+.breed-form .breed-wrapper li .breed-select input {
+  width: 100%;
+}
+.breed-form .breed-wrapper li .breed-select .start-require {
+  position: absolute;
+  left: 200px;
+  top: 10px;
+}
+.breed-form .breed-wrapper li .breed-select .cal {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  width: 19px;
+  height: 18px;
+  background: url(../../../img/calender.png) no-repeat;
+  cursor: pointer;
+}
+.breed-form .breed-wrapper li .breed-select-noM {
+  float: right;
+  margin-right: 20px;
+}
+.breed-form .breed-wrapper li.breed-li .layui-form-select {
+  width: 425px;
+  vertical-align: top;
+}
+.breed-form .breed-wrapper li.breed-li .layui-form-select input {
+  color: #4b715d;
+}
+.breed-form .breed-wrapper li.breed-li input.breed-li-day {
+  width: 425px;
+  vertical-align: top;
+}
+.breed-form .breed-wrapper li.btn-box {
+  margin-top: 10px;
+  text-align: center;
+}
+.con-top {
+  margin-bottom: 26px;
+  margin-top: -16px;
+}
+.select-wrap {
+  width: 110px;
+  height: 30px;
+  margin-right: 10px;
+}
+.select-wrap .layui-input {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 20px;
+  border: 1px solid #17a445;
+  text-align: center;
+  color: #17a445;
+  background: #Fff;
+}
+.select-wrap .layui-edge {
+  z-index: 10;
+  border-top-color: #fff;
+}
+.select-wrap .layui-form-select {
+  display: inline-block;
+}
+.select-wrap .layui-form-select dl {
+  top: 35px;
+  padding: 0;
+  border-radius: 10px;
+}
+.select-wrap .layui-form-select dl dd {
+  line-height: 28px;
+  text-align: left;
+}
+.select-wrap.active .layui-input {
+  color: #fff;
+  background: #ff9000;
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  border: 1px solid #ff7b03;
+}
+.select-wrap.active .layui-edge {
+  z-index: 10;
+  border-top-color: #fff;
+}
+.select-wrap.active .layui-this {
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  color: #fff;
+}

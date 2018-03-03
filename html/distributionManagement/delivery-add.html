@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN">
+<html>
+
+<head>
+    <title>新增发货</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="../../libs/layui/css/layui.css" />
+    <link rel="stylesheet" href="../../css/layout.css" />
+    <link rel="stylesheet" href="../../css/productionControl/harvestRecord.css" />
+    <link rel="stylesheet" href="../../css/distributionManagement/delivery.css" />
+    <link rel="stylesheet" href="../../css/distributionManagement/delivery-pop.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-box"><a class="header-left" href=""><i class="logo"></i><span>农产品溯源服务平台</span></a>
+            <div class="header-right">
+                <div class="user-info"><i class="user-logo"></i><span class="user-name">欢迎 X X 合作社登录，您已登录1小时10分</span></div>
+                <div class="person-set"><i class="person-set-logo"></i><span class="person-set-tit">修改密码</span></div><a class="exit" href="/html/login.html"><i class="person-set-logo"></i><span class="person-set-tit">退出</span></a></div>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-list cf">
+            <li class="first">
+                <div class="shadow"></div><a href="../productionControl/productionPlanManagement/maintain.html"><i class="produce-manage"></i><span>生产管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../processPackage/purchasingManagement/purchasingManagement.html"><i class="package-manage"></i><span>加工包装</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../distributionManagement/delivery.html"><i class="ciculate-manage"></i><span>流通管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../salesManagement/customer/customerManagement.html"><i class="sell-manage"></i><span>销售管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="#"><i class="quality-manage"></i><span>质量管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../systemManagement/enterprise/enterprise-info-base.html"><i class="system-manage"></i><span>系统管理</span></a></li>
+        </ul>
+    </div>
+    <div class="main-body cf">
+        <div class="leftbar leftbar3">
+            <ul class="list">
+                <li class="item"><a class="itemTitle" href="delivery.html"><i class="icon1"></i><span>发货管理</span></a></li>
+                <li class="item"><a class="itemTitle" href=""><i class="icon2"></i><span>库存管理</span></a>
+                    <ul class="itemlist">
+                        <li><a href="#">入库管理</a></li>
+                        <li><a href="#">仓库信息</a></li>
+                        <li><a href="#">盘库管理</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="content-box fl">
+            <div class="tab-content">
+                <div class="tab-item form-item half">
+                    <div class="product-title"><i class="title-icon"></i><span>发货信息</span></div>
+                    <form class="layui-form">
+                        <ul class="cf harvest-wrapper delivery-wrapper">
+                            <li><span class="l-title">发货单：</span><input class="c-input" type="text" lay-verify="required" /><span class="required">*</span></li>
+                            <li class="right-li"><span class="l-title">发货产品：</span><input class="c-input" type="text" /><span class="required marR20">*</span></li>
+                            <li><span class="l-title">发货量：</span><input class="c-input marR16" type="text" /><span class="kg">kg</span></li>
+                            <li class="right-li"><span class="l-title">金额：</span><input class="c-input" type="text" lay-verify="required" /><span class="kg">元</span><span class="required">*</span></li>
+                            <li><span class="l-title fl">发货时间：</span>
+                                <div class="harvest-cal fl"><input class="c-input" type="text" id="start" onclick="layui.laydate({elem: this,  istime: true, format: 'YYYY-MM-DD '})" /><i class="cal"></i></div><span class="required marT9 fl">*</span></li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="tab-item form-item half">
+                    <div class="delivery-box1">
+                        <h1 class="delivery-title">发货人信息</h1>
+                        <div class="delivery-form">
+                            <form class="layui-form">
+                                <ul class="cf harvest-wrapper delivery-wrapper">
+                                    <li><span class="l-title">发货方：</span><input class="c-input" type="text" /></li>
+                                    <li class="right-li"><span class="l-title">发货方地址：</span><input class="c-input marR20" type="text" /></li>
+                                    <li><span class="l-title">联系人：</span><input class="c-input marR16" type="text" /></li>
+                                    <li class="right-li"><span class="l-title">联系人地址：</span><input class="c-input marR20" type="text" /></li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-item form-item half">
+                    <div class="delivery-box1">
+                        <h1 class="delivery-title">物流信息</h1>
+                        <div class="delivery-form">
+                            <form class="layui-form">
+                                <ul class="cf harvest-wrapper delivery-wrapper">
+                                    <li><span class="l-title">物流单号：</span><input class="c-input" type="text" /></li>
+                                    <li class="right-li"><span class="l-title">物流商：</span><input class="c-input marR20" type="text" /></li>
+                                    <li><span class="l-title">联系人：</span><input class="c-input marR16" type="text" /></li>
+                                    <li class="right-li"><span class="l-title">联系人地址：</span><input class="c-input marR20" type="text" /></li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-item form-item half">
+                    <div class="delivery-box1">
+                        <h1 class="delivery-title">收货人信息</h1>
+                        <div class="delivery-form">
+                            <form class="layui-form">
+                                <ul class="cf harvest-wrapper delivery-wrapper">
+                                    <li><span class="l-title">收货方：</span><input class="c-input" type="text" /></li>
+                                    <li class="right-li"><span class="l-title">联系电话：</span><input class="c-input marR20" type="text" /></li>
+                                    <li><span class="l-title">联系人：</span><input class="c-input marR16" type="text" /></li>
+                                    <li class="right-li"><span class="l-title">联系人地址：</span><input class="c-input marR20" type="text" /></li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-item form-item half">
+                    <div class="product-title"><i class="title-icon"></i><span>货物信息</span></div>
+                    <div class="delivery-table layui-form">
+                        <div class="tablewrap overflow-visible">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>增加/删减</th>
+                                        <th>仓库</th>
+                                        <th>采收批次/加工批次</th>
+                                        <th>库存量(kg)</th>
+                                        <th>出货货物溯源码</th>
+                                        <th>出货量(kg)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="border">
+                                            <div class="add-del cf"><a class="add-btn fl" type="button">+</a><a class="del-btn fl" type="button">-</a></div>
+                                        </td>
+                                        <td>
+                                            <div class="cangku"><input class="cangkuInput" type="text" /><i class="origin-icon"></i></div>
+                                        </td>
+                                        <td>
+                                            <div class="pici"><select name="interest" lay-filter="aihao"><option></option><option value="0">谢总</option></select></div>
+                                        </td>
+                                        <td>
+                                            <div class="kucun"><select name="interest" lay-filter="aihao"><option></option><option value="0">谢总</option></select></div>
+                                        </td>
+                                        <td><a class="suyuanma">10</a></td>
+                                        <td>
+                                            <div class="chuhuo"><select name="interest" lay-filter="aihao"><option></option><option value="0">谢总</option></select></div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="mt10"><span class="submit" lay-submit="lay-submit">保存</span><span class="cancel" lay-submit="lay-submit">取消</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright Jusfoun.com © 2016-2017 河北遵化溯源大数据信息技术有限公司</p>
+        <p>技术支持 九次方大数据信息集团有限公司</p>
+    </div>
+    <div id="editLayer_box">
+        <div class="con-top form-item">
+            <form class="layui-form">
+                <ul class="sel-area cf">
+                    <li class="item-half"><span class="l-title">溯源码：</span><input class="c-input" type="text" /></li>
+                    <li class="btn-area w40">
+                        <div class="search"><span>查询</span></div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="con-bottom">
+            <div class="tablewrap layui-form">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>溯源码</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="odd">
+                            <td>XXXXXXXXXXXXXXXXXXXX</td>
+                        </tr>
+                        <tr class="even">
+                            <td>XXXXXXXXXXXXXXXXXXXX</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>XXXXXXXXXXXXXXXXXXXX</td>
+                        </tr>
+                        <tr class="even">
+                            <td>XXXXXXXXXXXXXXXXXXXX</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>XXXXXXXXXXXXXXXXXXXX</td>
+                        </tr>
+                        <tr class="even">
+                            <td>XXXXXXXXXXXXXXXXXXXX</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="editLayer_box2">
+        <div class="con-top form-item">
+            <form class="layui-form">
+                <ul class="sel-area cf">
+                    <li class="item-half"><span class="l-title">产品：</span><input class="c-input" type="text" /></li>
+                    <li class="item-half mr60"><span class="l-title">采收批次：</span><select name="interest" lay-filter="aihao"><option></option><option value="0">谢总</option></select></li>
+                    <li class="item-half btn-area">
+                        <div class="search"><span>查询</span><i class="search"></i></div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="con-bottom">
+            <div class="tablewrap layui-form">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>选择</th>
+                            <th>生产计划ID</th>
+                            <th>生产计划</th>
+                            <th>产品</th>
+                            <th>采收批次</th>
+                            <th>包装规格</th>
+                            <th>包装量</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="odd">
+                            <td><input type="checkbox" name="like" lay-skin="primary" title="" checked="" /></td>
+                            <td>123</td>
+                            <td>1号</td>
+                            <td>苹果2#</td>
+                            <td>2015-10-10</td>
+                            <td>XXX</td>
+                            <td>4600</td>
+                        </tr>
+                        <tr class="even">
+                            <td><input type="checkbox" name="like" lay-skin="primary" title="" /></td>
+                            <td>123</td>
+                            <td>1号</td>
+                            <td>苹果2#</td>
+                            <td>2015-10-10</td>
+                            <td>XXX</td>
+                            <td>4600</td>
+                        </tr>
+                        <tr class="odd">
+                            <td><input type="checkbox" name="like" lay-skin="primary" title="" checked="" /></td>
+                            <td>123</td>
+                            <td>1号</td>
+                            <td>苹果2#</td>
+                            <td>2015-10-10</td>
+                            <td>XXX</td>
+                            <td>4600</td>
+                        </tr>
+                        <tr class="even">
+                            <td><input type="checkbox" name="like" lay-skin="primary" title="" /></td>
+                            <td>123</td>
+                            <td>1号</td>
+                            <td>苹果2#</td>
+                            <td>2015-10-10</td>
+                            <td>XXX</td>
+                            <td>4600</td>
+                        </tr>
+                        <tr class="odd">
+                            <td><input type="checkbox" name="like" lay-skin="primary" title="" /></td>
+                            <td>123</td>
+                            <td>1号</td>
+                            <td>苹果2#</td>
+                            <td>2015-10-10</td>
+                            <td>XXX</td>
+                            <td>4600</td>
+                        </tr>
+                        <tr class="even">
+                            <td><input type="checkbox" name="like" lay-skin="primary" title="" /></td>
+                            <td>123</td>
+                            <td>1号</td>
+                            <td>苹果2#</td>
+                            <td>2015-10-10</td>
+                            <td>XXX</td>
+                            <td>4600</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagewrap cf">
+                <div class="totalRecord fl"><span>共找到</span><span class="num">30</span><span>条记录</span></div>
+                <div id="page"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="../../libs/layui/layui.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/distributionManagement/delivery-add.js"></script>
+
+</html>

@@ -1,0 +1,113 @@
+span.marL12 {
+  margin-left: 12px !important;
+}
+.con-top {
+  padding-top: 0;
+}
+.butBox {
+  display: inline-block;
+}
+.butBox a {
+  padding: 9px 0px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 130px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.butBox a.search {
+  box-shadow: 0 0 10px #fdd9c1;
+  background: #ff9000;
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  color: #fff;
+}
+.butBox a.search span {
+  margin-left: 5px;
+}
+.butBox a.search i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 30px;
+  top: 11px;
+  background: url(../../../img/search.png) no-repeat;
+}
+.butBox a.add {
+  text-align: center;
+  box-shadow: 0 0 10px #dbf2e6;
+  color: #44b669;
+  border: 1px solid #44b669;
+}
+.butBox a.add span {
+  margin-left: 15px;
+}
+.butBox a.add i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  background: url(../../../img/add.png) no-repeat;
+}
+.butBox a.add .i2 {
+  left: 28px;
+  top: 11px;
+}
+.addPacking {
+  display: none;
+}
+.addPacking li {
+  text-align: center;
+}
+.addPacking li .c-input {
+  width: 60%;
+}
+.addPacking li .pic {
+  display: inline-block;
+  width: 60%;
+  margin-right: 20px;
+}
+.addPacking li .pic .enclosureCon {
+  text-align: left;
+}
+.addPacking li .pic .enclosureCon li {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: auto;
+  margin-bottom: 0;
+  float: none;
+}
+.addPacking li .pic .enclosureCon .alreadyUpload {
+  margin-right: 10px;
+}
+.addPacking li span.unit {
+  display: inline-block;
+  width: 30px;
+  color: #4b715d;
+}
+.addPacking li span.required {
+  display: inline-block;
+  width: 10px;
+}
+.addPacking .unitLine {
+  padding-left: 15px;
+}
+.addPacking .btnLine {
+  margin: 20px 0;
+}
+.addPacking .textLine {
+  display: inline-block;
+  width: calc( 60% + 70px );
+  padding-right: 20px;
+}
+.addPacking .textLine .c-area {
+  width: calc( 100% - 70px );
+}
+.addPacking .autoLine {
+  text-align: center;
+  height: auto;
+}

@@ -1,0 +1,237 @@
+.tab-content {
+  text-align: center;
+}
+.btn-box {
+  text-align: center;
+  margin: 10px 0;
+}
+.form-item .autoLine {
+  height: auto;
+}
+.form-item .btn-box {
+  margin-top: 20px;
+}
+.form-item li .l-title {
+  width: 130px;
+  margin-right: 10px;
+}
+.form-item li .layui-form-select {
+  width: 100%;
+}
+.form-item li .c-input {
+  width: calc( 100% -140px );
+}
+.form-item li .qrCodeInfo {
+  box-sizing: border-box;
+  margin: 20px 0;
+  height: 160px;
+  border: 1px solid #bbd8c9;
+  border-radius: 5px;
+  box-shadow: 0 0 0 10px #f0f7f3 inset;
+  text-align: center;
+}
+.form-item li .qrCodeInfo .infoCon {
+  display: inline-block;
+  margin-top: 25px;
+}
+.form-item li .qrCodeInfo .infoCon .codeInfo,
+.form-item li .qrCodeInfo .infoCon .qrCodePic {
+  display: inline-block;
+}
+.form-item li .qrCodeInfo .infoCon .codeInfo {
+  margin-right: 50px;
+}
+.form-item li .qrCodeInfo .infoCon .codeInfo p {
+  color: #4b705d;
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+}
+.form-item li .qrCodeInfo .infoCon .qrCodePic {
+  width: 110px;
+  height: 110px;
+  border: 1px solid #bbd8c9;
+}
+.form-item .sourceLine {
+  display: inline-block;
+  box-sizing: border-box;
+  width: calc( 100% - 140px );
+  text-align: left;
+}
+.form-item .printCount {
+  display: inline-block;
+  line-height: 30px;
+}
+.form-item .printHistory {
+  display: inline-block;
+  width: 340px;
+}
+.form-item .printHistory .historyList {
+  border-left: 1px solid #c7e0d3;
+  padding-left: 33px;
+  position: relative;
+}
+.form-item .printHistory .historyList::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: -1px;
+  width: 10px;
+  height: 15px;
+  background-color: #fff;
+}
+.form-item .printHistory .historyList::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: -1px;
+  width: 10px;
+  height: 20px;
+  background-color: #fff;
+}
+.form-item .printHistory .historyList .lastPrint::before {
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+  content: '';
+  width: 17px;
+  height: 17px;
+  background-color: #ff8401;
+  border: 1px solid #ff8401;
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 100%;
+  left: -42px;
+  top: 8px;
+}
+.form-item .printHistory li {
+  position: relative;
+  width: 300px;
+  height: 30px;
+  background-color: #f0f7f3;
+  border-radius: 5px;
+  padding: 0 30px;
+}
+.form-item .printHistory li::before {
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+  content: '';
+  width: 17px;
+  height: 17px;
+  background-color: #22A35C;
+  border: 1px solid #22A35C;
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 100%;
+  left: -42px;
+  top: 8px;
+}
+.form-item .printHistory li::after {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 6px solid #f0f7f3;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  left: -12px;
+  top: 10px;
+}
+.form-item .printHistory span {
+  color: #4b705d;
+  font-size: 14px;
+}
+.form-item .printHistory .printLabel {
+  margin-left: 20px;
+}
+.form-item .sel-area {
+  font-size: 14px;
+  background: #eff7f3;
+  padding: 25px 25px 10px 20px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  text-align: center;
+  color: #4b715d;
+}
+.form-item .sel-area .start,
+.form-item .sel-area .end {
+  display: inline-block;
+  position: relative;
+}
+.form-item .sel-area .start i.cal,
+.form-item .sel-area .end i.cal {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  width: 19px;
+  height: 18px;
+  background: url(../../../img/calender.png) no-repeat;
+  cursor: pointer;
+}
+.form-item .sel-area .item-half {
+  width: 50%;
+}
+.form-item .sel-area .item-half .c-input {
+  width: 298px;
+}
+.form-item .sel-area .item-half .c-input2 {
+  width: 138px;
+}
+.form-item .sel-area .item-half span.line {
+  color: #b2d3c2;
+  padding: 0 7px;
+}
+.form-item .sel-area .item-left {
+  width: 30%;
+  text-align: left;
+}
+.form-item .sel-area .item-middle {
+  width: 50%;
+  text-align: right;
+}
+.form-item .sel-area .item-middle .c-input {
+  width: 278px;
+}
+.form-item .sel-area .item-right {
+  width: 20%;
+  text-align: right;
+  margin-bottom: 0px;
+}
+.form-item .btn-area {
+  text-align: center;
+  margin-bottom: 36px;
+}
+.form-item .btn-area div {
+  padding: 7px 0px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 110px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.form-item .btn-area div.search {
+  box-shadow: 0 0 10px #fdd9c1;
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  background: -webkit-linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  background: -ms-linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  background: -moz-linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  background: #ff9000;
+  color: #fff;
+}
+.form-item .btn-area div.search i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 24px;
+  top: 10px;
+  background: url(../../../img/search.png) no-repeat;
+}
+.cenCon {
+  display: inline-block;
+  width: 60%;
+}

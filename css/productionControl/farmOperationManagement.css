@@ -1,0 +1,215 @@
+@import '../common.css';
+@import '../layout.css';
+.mar20 {
+  margin: 20px 0;
+}
+.form-item .seed-wrapper {
+  width: 510px;
+  margin: 0 auto;
+  padding: 45px 0;
+}
+.form-item .seed-wrapper li {
+  margin-bottom: 25px;
+}
+.form-item .seed-wrapper li .c-input,
+.form-item .seed-wrapper li .layui-form-select {
+  width: 440px;
+}
+.form-item .seed-wrapper li .harvest-cal {
+  width: 440px;
+  position: relative;
+}
+.form-item .seed-wrapper li .harvest-cal input.c-input {
+  width: 100%;
+}
+.form-item .seed-wrapper li .harvest-cal .cal {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  width: 19px;
+  height: 18px;
+  background: url(../../img/calender.png) no-repeat;
+  cursor: pointer;
+}
+.form-item .seed-wrapper .btn-box {
+  margin-top: 20px;
+  text-align: center;
+}
+.editLayer_box {
+  padding: 0 40px;
+  display: none;
+}
+.editLayer_box .form-item {
+  padding-top: 20px;
+}
+.editLayer_box .form-item .sel-area {
+  font-size: 14px;
+  background: #eff7f3;
+  padding: 25px 35px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #4b715d;
+}
+.editLayer_box .form-item .sel-area li {
+  width: 50%;
+  margin-bottom: 0;
+}
+.editLayer_box .form-item .sel-area .btn-area div {
+  padding: 7px 0;
+  margin-right: 10px;
+  display: inline-block;
+  width: 110px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.editLayer_box .form-item .sel-area .btn-area div.search {
+  box-shadow: 0 0 10px #fdd9c1;
+  background: #ff9000;
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  color: #fff;
+}
+.editLayer_box .form-item .sel-area .btn-area div.search i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 24px;
+  top: 10px;
+  background: url(../../img/search.png) no-repeat;
+}
+.editLayer_box .form-item .sel-area .btn-area div.add {
+  padding: 6px 0;
+  background: #fbfdfc;
+  text-align: center;
+  box-shadow: 0 0 10px #dbf2e6;
+  color: #44b669;
+  border: 1px solid #44b669;
+}
+.editLayer_box .form-item .sel-area .btn-area div.add span {
+  margin-left: 50px;
+}
+.editLayer_box .form-item .sel-area .btn-area div.add i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 30px;
+  top: 9px;
+  background: url(../../img/add.png) no-repeat;
+}
+.editLayer_box .form-item .sel-area .btn-area.w40 {
+  width: 40px;
+}
+.layui-layer-title {
+  background-color: #017945 !important;
+  background-image: url("../../img/layer-title-bg.png") !important;
+  background-position: right -14px !important;
+  background-repeat: no-repeat !important;
+  color: #fff !important;
+}
+.layui-layer-setwin .layui-layer-ico {
+  background-image: url("../../img/layer-title-close.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: 0 0 !important;
+}
+.layui-form-item .layui-form-checkbox,
+.layui-form-item .layui-form-checkbox[lay-skin=primary] {
+  margin-top: 0px;
+}
+.pagewrap {
+  padding: 10px;
+}
+.pagewrap .totalRecord {
+  margin-top: 10px;
+  color: #5e6c7e;
+}
+.pagewrap .totalRecord .num {
+  color: #1b7714;
+}
+.pagewrap .page {
+  float: right;
+}
+.pagewrap .page .layui-laypage a,
+.pagewrap .page .layui-laypage span {
+  background: #e8f7ef;
+  border: 1px solid #bbd8c8;
+  color: #627e5e;
+}
+.pagewrap .page span.layui-laypage-total {
+  color: #627e5e;
+  border: none;
+  background: none;
+}
+.pagewrap .page span.layui-laypage-total input {
+  color: #627e5e;
+  border: 1px solid #bbd8c8;
+}
+.pagewrap .page .layui-laypage-btn {
+  background: #ff9000;
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  color: #fff;
+}
+.product-title i {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  background: url(../../img/titleicon.png) no-repeat;
+}
+.form-item.half li.all {
+  width: 100%;
+}
+.form-item.half li.all input {
+  width: 864px;
+}
+.basic-add-box .basic-add {
+  margin-top: 20px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 110px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  padding: 6px 0;
+  background: #fbfdfc;
+  box-shadow: 0 0 10px #dbf2e6;
+  color: #44b669;
+  border: 1px solid #44b669;
+}
+.basic-add-box .basic-add .basic-add-btn {
+  margin-left: 50px;
+}
+.basic-add-box .basic-add i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 30px;
+  top: 9px;
+  background: url(../../img/add.png) no-repeat;
+}
+.form-item .seed-wrapper {
+  width: 530px;
+}
+.form-item .seed-wrapper li .c-area {
+  width: 440px;
+}
+.form-item .seed-wrapper .details {
+  margin-bottom: 95px;
+}
+.form-item .seed-wrapper .item-half {
+  width: 50%;
+  float: left;
+}
+.form-item .seed-wrapper .item-half input,
+.form-item .seed-wrapper .item-half .harvest-cal {
+  width: 176px;
+}
+.form-item .seed-wrapper .item-half-time .required {
+  margin-top: 6px;
+}

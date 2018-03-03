@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN">
+<html>
+
+<head>
+    <title>角色管理-修改</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="../../../css/systemManagement/organization/organization.css" />
+    <link rel="stylesheet" href="../../../css/systemManagement/users/users.css" />
+    <link rel="stylesheet" href="../../../libs/layui/css/layui.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-box"><a class="header-left" href=""><i class="logo"></i><span>农产品溯源服务平台</span></a>
+            <div class="header-right">
+                <div class="user-info"><i class="user-logo"></i><span class="user-name">欢迎 X X 合作社登录，您已登录1小时10分</span></div>
+                <div class="person-set"><i class="person-set-logo"></i><span class="person-set-tit">修改密码</span></div><a class="exit" href="/html/login.html"><i class="person-set-logo"></i><span class="person-set-tit">退出</span></a></div>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-list cf">
+            <li class="first">
+                <div class="shadow"></div><a href="../../productionControl/productionPlanManagement/maintain.html"><i class="produce-manage"></i><span>生产管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../processPackage/purchasingManagement/purchasingManagement.html"><i class="package-manage"></i><span>加工包装</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../distributionManagement/delivery.html"><i class="ciculate-manage"></i><span>流通管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../salesManagement/customer/customerManagement.html"><i class="sell-manage"></i><span>销售管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="#"><i class="quality-manage"></i><span>质量管理</span></a></li>
+            <li>
+                <div class="shadow"></div><a href="../../systemManagement/enterprise/enterprise-info-base.html"><i class="system-manage"></i><span>系统管理</span></a></li>
+        </ul>
+    </div>
+    <div class="main-body cf">
+        <div class="leftbar">
+            <ul class="list">
+                <li class="item"><a class="itemTitle" href="../enterprise/enterprise-info-base.html"><i class="icon1"></i><span>企业信息</span></a></li>
+                <li class="item"><a class="itemTitle" href="../organization/organization.html"><i class="icon2"></i><span>组织机构</span></a></li>
+                <li class="item"><a class="itemTitle" href="../users/usersManagement.html"><i class="icon3"></i><span>用户管理</span></a></li>
+                <li class="item"><a class="itemTitle" href="../role/role-index.html"><i class="icon4"></i><span>角色管理</span></a></li>
+                <li class="item"><a class="itemTitle" href="../origin/originInfoManagement.html"><i class="icon5"></i><span>产地管理</span></a>
+                    <ul class="itemlist">
+                        <li><a href="../origin/originInfoManagement.html">产地信息管理</a></li>
+                        <li><a href="../origin/originArea-authentic.html">产地认定管理</a></li>
+                    </ul>
+                </li>
+                <li class="item"><a class="itemTitle" href="../productManagement/productInfoManagement.html"><i class="icon6"></i><span>产品管理</span></a>
+                    <ul class="itemlist">
+                        <li><a href="../productManagement/productInfoManagement.html">产品信息管理</a></li>
+                        <li><a href="../product/breedPeriod-index.html">生育期管理</a></li>
+                    </ul>
+                </li>
+                <li class="item"><a class="itemTitle" href="#"><i class="icon7"></i><span>投入品管理</span></a></li>
+                <li class="item"><a class="itemTitle" href="../packing/packingIndex.html"><i class="icon8"></i><span>包装规格</span></a></li>
+                <li class="item"><a class="itemTitle" href="#"><i class="icon9"></i><span>日志管理</span></a></li>
+            </ul>
+        </div>
+        <div class="content-box fl">
+            <div class="tab-content">
+                <div class="tab-item form-item">
+                    <div class="product-title"><i class="title-icon"></i><span>基本信息</span></div>
+                    <div class="change-wrapper">
+                        <form class="layui-form">
+                            <ul class="cf">
+                                <li><span class="l-title">角色名称：</span><input class="c-input" type="text" /></li>
+                                <li><span class="l-title fl">角色说明：</span><textarea class="c-area fl"></textarea></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+                <div class="tab-item form-item">
+                    <div class="product-title"><i class="title-icon"></i><span>数据权限配置</span></div>
+                    <div class="change-wrapper1">
+                        <form class="layui-form">
+                            <div class="radio-wrapper"><input type="radio" name="sex" value="自增数据权限" title="自增数据权限" checked="checked" /><input type="radio" name="sex" value="部门数据权限" title="部门数据权限" /></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="tree-wrapper">
+                    <div class="product-title"><i class="title-icon"></i><span>功能权限配置</span></div>
+                    <div class="treeListCon">
+                        <div class="treeCon">
+                            <ul id="operatTree"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-item form-item">
+                    <form class="layui-form">
+                        <ul class="cf">
+                            <li class="btn-box center"><button class="submit" lay-submit="lay-submit">确定</button><button class="cancel">取消</button></li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright Jusfoun.com © 2016-2017 河北遵化溯源大数据信息技术有限公司</p>
+        <p>技术支持 九次方大数据信息集团有限公司</p>
+    </div>
+</body>
+<script src="../../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="../../../libs/jquery.nicescroll.min.js"></script>
+<script src="../../../libs/layui/layui.js"></script>
+<script src="../../../js/common.js"></script>
+<script src="../../../js/systemManagement/role/modifyRole.js"></script>
+
+</html>

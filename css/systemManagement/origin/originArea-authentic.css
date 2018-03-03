@@ -1,0 +1,165 @@
+span.marL12 {
+  margin-left: 12px;
+}
+.content {
+  border-radius: 4px;
+}
+.content .con-top {
+  margin-bottom: 44px;
+}
+.content .con-top .sel-area {
+  font-size: 14px;
+  background: #eff7f3;
+  padding: 26px 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.content .con-top .sel-area > div {
+  display: inline-block;
+  color: #4b715d;
+}
+.content .con-top .sel-area span.label {
+  line-height: 32px;
+}
+.content .con-top .sel-area input {
+  width: 140px;
+  height: 32px;
+  border: 1px solid #b2d3c2;
+  border-radius: 4px;
+  outline: none;
+  padding: 0 10px;
+  margin: 0 4px;
+  background: #fefefd;
+}
+.content .con-top .sel-area .sel-left input {
+  width: 150px;
+  height: 30px;
+}
+.content .con-top .sel-area .sel-mid {
+  width: 400px;
+  text-align: center;
+}
+.content .con-top .sel-area .sel-mid span {
+  margin-top: 8px;
+}
+.content .con-top .sel-area .sel-mid .start,
+.content .con-top .sel-area .sel-mid .end {
+  display: inline-block;
+  position: relative;
+}
+.content .con-top .sel-area .sel-mid .start i.cal,
+.content .con-top .sel-area .sel-mid .end i.cal {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  width: 19px;
+  height: 18px;
+  background: url(../../../img/calender.png) no-repeat;
+  cursor: pointer;
+}
+.content .con-top .sel-area .sel-mid span.line {
+  color: #b2d3c2;
+}
+.content .con-top .sel-area .sel-mid input {
+  width: 100px;
+  height: 30px;
+}
+.content .con-top .sel-area .sel-right {
+  margin-right: 0;
+}
+.content .con-top .sel-area .sel-right .layui-select {
+  background: #fefefd;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  border-color: #bbd8c9;
+  box-sizing: border-box;
+}
+.content .con-top .sel-area .sel-right .layui-form-select {
+  display: inline-block;
+}
+.content .con-top .sel-area .sel-right .layui-form-select .layui-edge {
+  z-index: 10;
+  border-top-color: #fff;
+}
+.content .con-top .sel-area .sel-right .layui-form-select dl {
+  top: 35px;
+}
+.content .con-top .sel-area .sel-right .layui-form-select dl dd {
+  line-height: 28px;
+  text-align: left;
+}
+.content .con-top .sel-area .sel-right .layui-form-select::after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 32px;
+  background-color: #2aa161;
+  border: 0;
+  top: 0px;
+  right: 0px;
+  border-color: #10a645;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.content .con-top .btn-area {
+  text-align: center;
+}
+.content .con-top .btn-area div {
+  padding: 7px 0;
+  margin-right: 10px;
+  display: inline-block;
+  width: 130px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.content .con-top .btn-area div.search {
+  box-shadow: 0 0 10px #fdd9c1;
+  background: #ff9000;
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  color: #fff;
+}
+.content .con-top .btn-area div.search i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 30px;
+  top: 11px;
+  background: url(../../../img/search.png) no-repeat;
+}
+.content .con-top .btn-area div.search .i2 {
+  top: 9px;
+  background: url(../../../img/search.png) no-repeat;
+}
+.content .con-top .btn-area div.add {
+  text-align: right;
+  box-shadow: 0 0 10px #dbf2e6;
+  color: #44b669;
+  border: 1px solid #44b669;
+}
+.content .con-top .btn-area div.add span {
+  margin-right: 15px;
+}
+.content .con-top .btn-area div.add i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  background: url(../../../img/add.png) no-repeat;
+}
+.content .con-top .btn-area div.add .i2 {
+  left: 20px;
+}
+.content .con-top .btn-area div.add .i3 {
+  left: 20px;
+  top: 9px;
+}
+.content .con-top .btn-area div.add .i4 {
+  top: 9px;
+}

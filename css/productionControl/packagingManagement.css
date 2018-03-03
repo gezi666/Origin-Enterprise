@@ -1,0 +1,468 @@
+@import '../common.css';
+@import '../form.css';
+@import '../table.css';
+span.marL12 {
+  margin-left: 12px;
+}
+.center {
+  text-align: center;
+}
+.right-li .layui-form-select {
+  float: right;
+}
+.form-item .packman-wrapper {
+  width: 530px;
+}
+.form-item .packman-wrapper li {
+  margin-bottom: 25px;
+}
+.form-item .packman-wrapper li .c-area {
+  width: 440px;
+}
+.form-item .packman-wrapper .all {
+  height: auto;
+}
+.form-item {
+  border-radius: 4px;
+}
+.form-item .sel-area {
+  font-size: 14px;
+  background: #eff7f3;
+  padding: 26px 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-item .sel-area .item-half {
+  width: 50%;
+}
+.form-item .sel-area .item-half .l-title {
+  width: auto;
+}
+.form-item .sel-area .item-half .c-input,
+.form-item .sel-area .item-half select {
+  width: 60%;
+}
+.form-item .sel-area > div {
+  display: inline-block;
+  color: #4b715d;
+}
+.form-item .sel-area input {
+  width: 140px;
+  height: 32px;
+  border: 1px solid #b2d3c2;
+  border-radius: 4px;
+  outline: none;
+  padding: 0 10px;
+  margin: 0 4px;
+  background: #fefefd;
+}
+.form-item .sel-area .layui-input {
+  width: 100%;
+  margin: 0;
+  height: 30px;
+}
+.form-item .sel-area .sel-left input {
+  width: 150px;
+  height: 30px;
+}
+.form-item .sel-area .sel-mid {
+  width: 400px;
+  text-align: center;
+}
+.form-item .sel-area .sel-mid span {
+  margin-top: 8px;
+}
+.form-item .sel-area .sel-mid .start,
+.form-item .sel-area .sel-mid .end {
+  display: inline-block;
+  position: relative;
+}
+.form-item .sel-area .sel-mid .start input,
+.form-item .sel-area .sel-mid .end input {
+  width: 100px;
+}
+.form-item .sel-area .sel-mid .start i.cal,
+.form-item .sel-area .sel-mid .end i.cal {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  width: 19px;
+  height: 18px;
+  background: url(../../img/calender.png) no-repeat;
+  cursor: pointer;
+}
+.form-item .sel-area .sel-mid span.line {
+  color: #b2d3c2;
+}
+.form-item .sel-area .sel-mid input {
+  width: 80px;
+  height: 30px;
+}
+.form-item .sel-area .sel-right {
+  margin-right: 0;
+}
+.form-item .sel-area .sel-right .layui-select {
+  background: #fefefd;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  border-color: #bbd8c9;
+  box-sizing: border-box;
+}
+.form-item .sel-area .sel-right .layui-form-select {
+  display: inline-block;
+}
+.form-item .sel-area .sel-right .layui-form-select .layui-edge {
+  z-index: 10;
+  border-top-color: #fff;
+}
+.form-item .sel-area .sel-right .layui-form-select dl {
+  top: 35px;
+}
+.form-item .sel-area .sel-right .layui-form-select dl dd {
+  line-height: 28px;
+  text-align: left;
+}
+.form-item .sel-area .sel-right .layui-form-select::after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 32px;
+  background-color: #2aa161;
+  border: 0;
+  top: 0;
+  right: 0;
+  border-color: #10a645;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.form-item .btn-area {
+  margin-bottom: 44px;
+  text-align: center;
+}
+.form-item .btn-area a {
+  padding: 7px 0;
+  margin-right: 10px;
+  display: inline-block;
+  width: 130px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.form-item .btn-area a.search {
+  box-shadow: 0 0 10px #fdd9c1;
+  background: #ff9000;
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  color: #fff;
+}
+.form-item .btn-area a.search i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 30px;
+  top: 11px;
+  background: url(../../img/search.png) no-repeat;
+}
+.form-item .btn-area a.search .i2 {
+  top: 10px;
+}
+.form-item .btn-area a.search .i3 {
+  top: 9px;
+}
+.form-item .btn-area a.add {
+  padding: 6px 0;
+  text-align: center;
+  box-shadow: 0 0 10px #dbf2e6;
+  color: #44b669;
+  border: 1px solid #44b669;
+}
+.form-item .btn-area a.add span {
+  margin-left: 15px;
+}
+.form-item .btn-area a.add i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+  background: url(../../img/add.png) no-repeat;
+}
+.form-item .btn-area a.add .i2 {
+  top: 9px;
+}
+.form-item .btn-area a.add .i3 {
+  top: 8px;
+}
+.form-item .btn-area a.add .i4 {
+  left: 10px;
+}
+.form-item.half .delivery-wrapper {
+  padding: 30px 0 0 0;
+}
+.form-item.half .delivery-wrapper li span.kg {
+  font-size: 14px;
+  color: #4b715d;
+  line-height: 32px;
+  margin-left: 5px;
+}
+.form-item.half .delivery-box1 {
+  padding: 11px;
+  background: #eff7f3;
+  border: 1px solid #bbd8c9;
+  border-radius: 5px;
+}
+.form-item.half .delivery-box1 .delivery-title {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #49725c;
+}
+.form-item.half .delivery-box1 .delivery-form {
+  background: #fff;
+  border-radius: 5px;
+}
+.form-item.half .delivery-table {
+  margin: 30px 0;
+}
+.form-item.half .delivery-table tr td {
+  height: 68px;
+}
+.form-item.half .delivery-table tr td .add-del {
+  text-align: center;
+  margin: 20px 0;
+}
+.form-item.half .delivery-table tr td .add-del a {
+  width: 26px;
+  height: 26px;
+  margin: 0 16px 0 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+.form-item.half .delivery-table tr td .add-del .add-btn {
+  margin-left: 30px;
+  color: #10a645;
+  border: 1px solid #10a645;
+}
+.form-item.half .delivery-table tr td .add-del .add-btn:hover,
+.form-item.half .delivery-table tr td .add-del .add-btn.active {
+  color: #fff;
+  background: #10a645;
+}
+.form-item.half .delivery-table tr td .add-del .del-btn {
+  color: #ff7b03;
+  border: 1px solid #ff7b03;
+}
+.form-item.half .delivery-table tr td .add-del .del-btn:hover,
+.form-item.half .delivery-table tr td .add-del .del-btn.active {
+  color: #fff;
+  background: #ff7b03;
+}
+.form-item.half .delivery-table tr td .cangku {
+  position: relative;
+  margin: 20px 0;
+}
+.form-item.half .delivery-table tr td .cangku input {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #b2d3c2;
+  border-radius: 4px;
+  outline: none;
+  padding: 0 10px;
+}
+.form-item.half .delivery-table tr td .cangku i {
+  position: absolute;
+  right: 30px;
+  top: 7px;
+  width: 19px;
+  height: 19px;
+  background: url(../../img/originIcon.png) no-repeat;
+}
+.form-item.half .delivery-table tr td .layui-form-select {
+  margin-left: 30px;
+}
+.form-item.half .delivery-table tr td .layui-form-select .layui-input {
+  width: 140px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 5px;
+  border-color: #bbd8c9;
+}
+.form-item.half .delivery-table tr td .layui-form-select i {
+  z-index: 10;
+  border-top-color: #fff;
+  right: 18px;
+}
+.form-item.half .delivery-table tr td .layui-form-select:after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 32px;
+  background-color: #2aa161;
+  border: 0;
+  top: 0;
+  right: 10px;
+  border-color: #10a645;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.form-item.half .delivery-table tr td .suyuanma {
+  color: #ff8202;
+  text-decoration: underline;
+}
+.form-item.half .delivery-table tr td .chuhuo {
+  margin-right: 20px;
+}
+.form-item.half .delivery-table tr .border {
+  border-right: 1px solid #b2d3c2;
+}
+.con-bottom {
+  margin-bottom: 20px;
+}
+#editLayer_box {
+  display: none;
+}
+.layui-layer-title {
+  background-color: #017945 !important;
+  background-image: url("../../img/layer-title-bg.png") !important;
+  background-position: right -14px !important;
+  background-repeat: no-repeat !important;
+  color: #fff !important;
+}
+.layui-layer-setwin .layui-layer-ico {
+  background-image: url("../../img/layer-title-close.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: 0 0 !important;
+}
+.sel-con {
+  width: 70%;
+  height: 32px;
+  margin: 0 auto 30px;
+}
+.sel-con .layui-select {
+  background: #fefefd;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  border-color: #bbd8c9;
+  box-sizing: border-box;
+}
+.sel-con .layui-form-select {
+  width: 100%;
+  display: inline-block;
+}
+.sel-con .layui-form-select .layui-edge {
+  z-index: 10;
+  border-top-color: #fff;
+}
+.sel-con .layui-form-select dl {
+  top: 35px;
+}
+.sel-con .layui-form-select dl dd {
+  line-height: 28px;
+  text-align: left;
+}
+.sel-con .layui-input {
+  height: 32px;
+  color: #4b715d;
+  border-color: #c1dbcd;
+}
+.sel-con .layui-form-select::after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 32px;
+  background-color: #2aa161;
+  border: 0;
+  top: 0;
+  right: 0;
+  border-color: #10a645;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.editLayer_box .form-item p {
+  line-height: 30px;
+  padding: 0 50px;
+  font-size: 16px;
+  color: #4b715d;
+}
+.editLayer_box .form-item .btn-area {
+  margin-top: 20px;
+  text-align: center;
+}
+.editLayer_box .form-item .btn-area div {
+  padding: 7px 0;
+  margin-right: 10px;
+  display: inline-block;
+  width: 110px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.editLayer_box .form-item .btn-area div.search {
+  box-shadow: 0 0 10px #fdd9c1;
+  background: #ff9000;
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  color: #fff;
+  border: 1px solid #ff7b03;
+}
+.editLayer_box .form-item .btn-area div.search i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 24px;
+  top: 10px;
+  background: url(../../../img/search.png) no-repeat;
+}
+.editLayer_box .form-item .btn-area div.edit {
+  box-shadow: 0 0 10px #dbf2e6;
+  background: #2bb95d;
+  background: linear-gradient(to right, #2bb95d, #168859);
+  color: #fff;
+  border: 1px solid #44b669;
+}
+.editLayer_box .form-item .btn-area div.edit i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: url(../../img/add.png) no-repeat;
+}
+.layui-form li.ie9 span.l-title {
+  width: 85px;
+  float: left;
+  margin-left: 50px;
+  margin-right: -50px;
+}
+.layui-form li.ie92 span.l-title {
+  width: 85px;
+  float: left;
+  margin-left: 79px;
+  margin-right: -95px;
+}
+.editLayer_box {
+  padding: 20px;
+}
+.rolesWrap {
+  height: 190px;
+  overflow-y: auto;
+}
+.btn-box2 {
+  text-align: center;
+}
+.btn-box2 span {
+  width: 80px;
+  text-align: center;
+}

@@ -1,0 +1,59 @@
+@import '../common.css';
+@import '../systemManagement/origin/originArea-authentic.css';
+@import '../layout.css';
+@import '../form.css';
+.form-item li .layui-form-select {
+  width: 75%;
+}
+.tab-item {
+  width: 50%;
+}
+.tab-item .c-input {
+  width: 75%;
+}
+.tab-item .termLine {
+  display: inline-block;
+  padding: 0;
+  border: none;
+}
+.tab-item span.l-title {
+  width: 85px;
+}
+.tab-item span.division {
+  display: inline-block;
+  width: 10%;
+  color: #bbd8c9;
+  text-align: center;
+}
+.tab-item .term {
+  width: 45%;
+}
+.tab-item .company {
+  margin-left: 10px;
+}
+.tab-item .enclosure {
+  padding-left: 20px;
+}
+.tab-item ul.enclosureCon {
+  padding: 20px;
+}
+.tab-item ul.enclosureCon > li {
+  position: relative;
+  display: inline-block;
+  margin: 40px 0 0 90px;
+  width: 120px;
+  height: 152px;
+  border: 1px solid #bbd8c9;
+  border-radius: 5px;
+  background-color: #eaf2ee;
+}
+.tab-item ul.enclosureCon .imgCon {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.buttonLine {
+  margin-top: 30px;
+  text-align: center;
+}

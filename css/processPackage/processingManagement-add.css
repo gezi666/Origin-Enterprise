@@ -1,0 +1,318 @@
+.form-item li .c-area {
+  width: 796px;
+  border-radius: 4px;
+}
+.layui-form-select dl {
+  top: 35px;
+}
+.layui-form-select dl dd {
+  line-height: 28px;
+  text-align: left;
+}
+.layui-form-select .layui-input {
+  margin-top: 14px;
+  width: 232px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  border-color: #bbd8c9;
+}
+.layui-form-select i {
+  z-index: 10;
+  border-top-color: #fff !important;
+  right: 8px;
+}
+.layui-form-select:after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #2aa161;
+  border: 0;
+  top: 0px;
+  right: 0px;
+  border-color: #10a645;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.form-item .harvest-wrapper {
+  padding: 30px 34px;
+}
+.form-item .harvest-wrapper li span.l-title {
+  width: 100px;
+}
+.form-item .harvest-wrapper li .harvest-cal {
+  position: relative;
+}
+.form-item .harvest-wrapper li .harvest-cal input {
+  width: 268px;
+}
+.form-item .harvest-wrapper li .harvest-cal .cal {
+  position: absolute;
+  right: 20px;
+  top: 6px;
+  width: 19px;
+  height: 18px;
+  background: url(../../img/calender.png) no-repeat;
+  cursor: pointer;
+}
+.form-item .harvest-wrapper li .layui-form-radio {
+  margin: 0;
+  padding: 0 15px;
+}
+.harvest-form ul.harvest-form-ul {
+  padding: 30px 0;
+}
+.harvest-form ul.harvest-form-ul span.l-title {
+  width: 100px;
+  color: #4b715d;
+  height: 36px;
+  line-height: 36px;
+}
+.layui-input-block {
+  margin-left: 0px;
+  min-height: 36px;
+}
+.harvest-form ul.harvest-form-ul {
+  padding: 30px 0;
+}
+.harvest-form ul.harvest-form-ul li {
+  padding: 25px 34px;
+  background: #f0f8f4;
+  border-radius: 4px;
+}
+.harvest-form ul.harvest-form-ul li .add-del {
+  padding: 5px 13px 5px 0;
+  height: 50px;
+  margin-right: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.harvest-form ul.harvest-form-ul li .add-del:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-image: -webkit-linear-gradient(to bottom, #f0f8f4, #24804f, #f0f8f4);
+  background-image: -moz-linear-gradient(to bottom, #f0f8f4, #24804f, #f0f8f4);
+  background-image: -o-linear-gradient(to bottom, #f0f8f4, #24804f, #f0f8f4);
+  background-image: -ms-linear-gradient(to bottom, #f0f8f4, #24804f, #f0f8f4);
+  background-image: linear-gradient(to bottom, #f0f8f4, #24804f, #f0f8f4);
+}
+.harvest-form ul.harvest-form-ul li .add-del a {
+  width: 26px;
+  height: 26px;
+  margin: 11px 16px 0 0;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+.harvest-form ul.harvest-form-ul li .add-del .add-btn {
+  color: #10a645;
+  border: 1px solid #10a645;
+}
+.harvest-form ul.harvest-form-ul li .add-del .add-btn:hover,
+.harvest-form ul.harvest-form-ul li .add-del .add-btn.active {
+  color: #fff;
+  background: #10a645;
+}
+.harvest-form ul.harvest-form-ul li .add-del .del-btn {
+  color: #ff7b03;
+  border: 1px solid #ff7b03;
+}
+.harvest-form ul.harvest-form-ul li .add-del .del-btn:hover,
+.harvest-form ul.harvest-form-ul li .add-del .del-btn.active {
+  color: #fff;
+  background: #ff7b03;
+}
+.harvest-form ul.harvest-form-ul li .harvest-li-box {
+  margin: 0 15px;
+  position: relative;
+}
+.harvest-form ul.harvest-form-ul li .harvest-li-box i.origin-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 6px;
+  top: 38px;
+  width: 19px;
+  height: 19px;
+  background: url(../../img/originIcon.png) no-repeat;
+}
+.harvest-form ul.harvest-form-ul li .harvest-li-box p {
+  text-align: center;
+  font-size: 14px;
+  color: #4b715d;
+}
+.harvest-form ul.harvest-form-ul li .harvest-li-box .c-input {
+  width: 232px;
+  height: 30px;
+  margin-top: 14px;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid #bbd8c9;
+  background: #fff;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+.harvest-form ul.harvest-form-ul li .harvest-li-box .c-input1 {
+  width: 152px;
+}
+.harvest-form ul.harvest-form-ul li .harvest-li-box .harvest-cal {
+  width: 152px;
+  position: relative;
+}
+.harvest-form ul.harvest-form-ul li .harvest-li-box .harvest-cal input.c-input {
+  width: 100%;
+}
+.harvest-form ul.harvest-form-ul li .harvest-li-box1 {
+  margin-right: 0;
+}
+.harvest-form ul.form-item li {
+  text-align: center;
+}
+#editLayer_box {
+  padding: 0 40px 20px;
+  display: none;
+}
+.layui-layer-title {
+  background-color: #017945 !important;
+  background-image: url("../../img/layer-title-bg.png") !important;
+  background-position: right -14px !important;
+  background-repeat: no-repeat !important;
+  color: #fff !important;
+}
+.layui-layer-setwin .layui-layer-ico {
+  background-image: url("../../img/layer-title-close.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: 0 0 !important;
+}
+.layui-form-item .layui-form-checkbox,
+.layui-form-item .layui-form-checkbox[lay-skin=primary] {
+  margin-top: 0px;
+}
+.sel-con {
+  width: 70%;
+  height: 32px;
+  margin: 0 auto 50px;
+}
+.sel-con .layui-select {
+  background: #fefefd;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  border-color: #bbd8c9;
+  box-sizing: border-box;
+}
+.sel-con .layui-form-select {
+  width: 100%;
+  display: inline-block;
+}
+.sel-con .layui-form-select .layui-edge {
+  z-index: 10;
+  border-top-color: #fff;
+}
+.sel-con .layui-form-select dl {
+  top: 35px;
+}
+.sel-con .layui-form-select dl dd {
+  line-height: 28px;
+  text-align: left;
+}
+.sel-con .layui-input {
+  height: 32px;
+  color: #4b715d;
+  border-color: #c1dbcd;
+}
+.sel-con .layui-form-select::after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 32px;
+  background-color: #2aa161;
+  border: 0;
+  top: 0px;
+  right: 0px;
+  border-color: #10a645;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.sel-area {
+  font-size: 14px;
+  background: #eff7f3;
+  padding: 25px 25px 10px 20px;
+  margin: -15px 0px 20px 0px;
+  border-radius: 4px;
+  text-align: right;
+  color: #4b715d;
+}
+.sel-area .item-half {
+  width: 50%;
+}
+.sel-area .item-half .c-input {
+  width: 298px;
+  height: 32px;
+}
+.sel-area .btn-area {
+  text-align: right;
+}
+.sel-area .btn-area div {
+  padding: 7px 0px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 110px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.sel-area .btn-area div.search {
+  box-shadow: 0 0 10px #fdd9c1;
+  background: linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  background: -webkit-linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  background: -ms-linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  background: -moz-linear-gradient(to right, #ff9000, #ff8d01, #ff7b03);
+  background: #ff9000;
+  color: #fff;
+}
+.sel-area .btn-area div.search i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 24px;
+  top: 10px;
+  background: url(../../img/search.png) no-repeat;
+}
+.form-item li .layui-input {
+  margin-top: 0px;
+  width: 100%;
+}
+.form-item .harvest-wrapper li.ie9 span.l-title {
+  float: left;
+  margin-left: 64px;
+  margin-right: -20px;
+}
+.form-item li.ie9 .required {
+  margin-top: 10px;
+  float: right;
+}
+.sel-area .btn-area .submit {
+  padding: 0;
+  border: 1px solid #10a645;
+  background: #2bb95d;
+  background: -webkit-linear-gradient(-45deg, #16885a, #2cb95e);
+  background: -moz-linear-gradient(-45deg, #16885a, #2cb95e);
+  background: -ms-linear-gradient(-45deg, #16885a, #2cb95e);
+  background-image: linear-gradient(-45deg, #16885a, #2cb95e);
+  box-shadow: 0px 5px 30px rgba(44, 185, 94, 0.2);
+}
+.marL12 {
+  margin-left: 12px;
+}

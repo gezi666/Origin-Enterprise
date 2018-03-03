@@ -1,0 +1,96 @@
+.noMinHeight {
+  min-height: 0;
+}
+.top-tab {
+  border-bottom: 1px solid #bdd9ca;
+  height: 30px;
+  position: relative;
+}
+.top-tab a {
+  font-size: 16px;
+  color: #2aa161;
+  display: inline-block;
+  padding: 0 20px;
+  height: 30px;
+  border-bottom: 3px solid transparent;
+  box-sizing: border-box;
+  bottom: -1px;
+  position: relative;
+}
+.top-tab a.active,
+.top-tab a:hover {
+  border-color: #2aa161;
+}
+.layui-form li .termLine {
+  display: inline-block;
+  width: 50%;
+  padding: 0;
+  border: none;
+}
+.layui-form li .termLine .term {
+  width: 45%;
+}
+span.division {
+  display: inline-block;
+  width: 10%;
+  color: #bbd8c9;
+  text-align: center;
+}
+.form-item li .l-title {
+  width: 120px;
+}
+.geographic li .l-title {
+  width: 130px;
+}
+.pic {
+  display: inline-block;
+  width: 50%;
+}
+.layui-form .enclosureCon li {
+  height: auto;
+}
+.layui-form .upload {
+  margin: 0;
+}
+.btnLine {
+  margin-top: 20px;
+}
+.form-item li .layui-form-select {
+  width: 50%;
+}
+.layui-form li.ie9 {
+  text-align: left;
+  line-height: 30px;
+}
+.layui-form li.ie9 span.l-title {
+  width: 85px;
+  float: left;
+  margin-left: 208px;
+}
+.layui-form li.ie93 span.l-title {
+  width: 85px;
+  float: left;
+  margin-left: 50px;
+  margin-right: -70px;
+}
+.layui-form li.ie95 span.l-title {
+  width: 85px;
+  float: left;
+  margin-left: 50px;
+  margin-right: -105px;
+}
+.layui-form .ie94 .layui-form-select {
+  float: right;
+  margin-top: -7px;
+}
+.i2 {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 20px;
+  top: 11px;
+  background: url(../../img/add.png) no-repeat;
+}
+span.marL12 {
+  margin-left: 12px;
+}

@@ -1,0 +1,109 @@
+@import '../../common.css';
+@import '../enterprise/base-info.css';
+@import '../../layout.css';
+@import '../../form.css';
+@import '../../table.css';
+.operatNode {
+  text-align: right;
+}
+.addN,
+.delN,
+.updN {
+  display: inline-block;
+  width: 120px;
+  height: 32px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+.addN {
+  border: 1px solid #10a645;
+  background-image: linear-gradient(-45deg, #16885a, #2cb95e);
+  box-shadow: 0px 5px 30px rgba(44, 185, 94, 0.2);
+}
+.delN {
+  margin-left: 20px;
+  border: 1px solid #ff7c00;
+  background-image: linear-gradient(-45deg, #ff7b03, #ff9000);
+  box-shadow: 0px 5px 30px rgba(255, 128, 14, 0.2);
+}
+.updN {
+  color: #38b160;
+  margin-left: 20px;
+  background-color: transparent;
+  border: 1px solid #38b160;
+  box-shadow: 0px 5px 30px rgba(56, 177, 96, 0.2);
+}
+.treeListCon {
+  padding: 20px 0;
+}
+.treeListCon .treeCon,
+.treeListCon .tablewrap {
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 400px;
+}
+.treeListCon .listCon {
+  width: 70%;
+}
+.treeListCon .listCon .tablewrap {
+  border-color: #ccc;
+  overflow: hidden;
+}
+.treeListCon .listCon .page {
+  padding-top: 10px;
+}
+.treeListCon .listCon .page p,
+.treeListCon .listCon .page #listPage {
+  display: inline-block;
+}
+.treeListCon .listCon .page p {
+  height: 56px;
+  line-height: 56px;
+  color: #999;
+}
+.treeListCon .listCon .page .layui-laypage a {
+  padding: 0 12px;
+}
+.treeListCon .listCon .page span.layui-laypage-total {
+  padding-right: 0;
+}
+.treeListCon .listCon .page .layui-laypage button {
+  color: #fff;
+  border: 1px solid #ff9f0d;
+  border-radius: 5px;
+  background: #ffc619;
+  background-image: linear-gradient(45deg, #ffc619, #ff9b19);
+  box-shadow: 0px 5px 30px rgba(255, 150, 2, 0.2);
+}
+.treeListCon .treeCon {
+  width: calc( 30% - 30px );
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow: auto;
+}
+.treeListCon .treeCon .layui-icon {
+  color: #2aa161;
+}
+.treeListCon .treeCon .layui-tree li {
+  overflow: inherit;
+}
+.treeListCon .treeCon li cite {
+  color: #4f7361;
+}
+#Layer_box {
+  display: none;
+}
+#Layer_box li {
+  text-align: center;
+}
+#Layer_box li span.l-title {
+  width: 100px;
+}
+#Layer_box li .c-input {
+  width: 60%;
+}
+#Layer_box .btnLine {
+  margin: 20px 0;
+}

@@ -1,0 +1,217 @@
+.form-item {
+  padding-top: 35px;
+}
+.form-item .c-input {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #bbd8c9;
+  background: #fbfbfb;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+.form-item li {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+  height: 30px;
+}
+.form-item li .required {
+  margin-left: 10px;
+  color: red;
+  font-size: 14px;
+}
+.form-item li .l-title {
+  font-size: 14px;
+  color: #4b715d;
+  line-height: 30px;
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+}
+.form-item li .layui-form-radio {
+  margin-right: 96px;
+}
+.form-item li .layui-form-radio:last-child {
+  margin-right: 10px;
+}
+.form-item li .layui-input,
+.form-item li .layui-select {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  border-color: #bbd8c9;
+  box-sizing: border-box;
+}
+.form-item li .layui-form-select {
+  width: 60%;
+  display: inline-block;
+}
+.form-item li .layui-form-select .layui-edge {
+  z-index: 10;
+  border-top-color: #fff;
+}
+.form-item li .layui-form-select dl {
+  top: 35px;
+}
+.form-item li .layui-form-select dl dd {
+  line-height: 28px;
+  text-align: left;
+}
+.form-item li .layui-form-select::after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #2aa161;
+  border: 0;
+  top: 0px;
+  right: 0px;
+  border-color: #10a645;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.form-item li .c-area {
+  width: calc(100% - 70px);
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #bbd8c9;
+  border-radius: 5px;
+  height: 100px;
+  line-height: 20px;
+  padding: 0 10px;
+}
+.form-item.half li {
+  width: 50%;
+}
+.form-item.half li > input,
+.form-item.half li .layui-input-block {
+  width: 60%;
+}
+.form-item.half li .layui-input-block {
+  display: inline-block;
+  margin-left: 0;
+}
+.form-item.half li.right-li {
+  text-align: right;
+}
+.form-item.half .btn-box {
+  width: 100%;
+  text-align: center;
+}
+.form-item.half .all {
+  width: 100%;
+  height: auto;
+}
+.refuse,
+.submit,
+.cancel {
+  display: inline-block;
+  width: 120px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+.submit {
+  border: 1px solid #10a645;
+  background: #2bb95d;
+  background: -webkit-linear-gradient(-45deg, #16885a, #2cb95e);
+  background: -moz-linear-gradient(-45deg, #16885a, #2cb95e);
+  background: -ms-linear-gradient(-45deg, #16885a, #2cb95e);
+  background-image: linear-gradient(-45deg, #16885a, #2cb95e);
+  box-shadow: 0px 5px 30px rgba(44, 185, 94, 0.2);
+}
+.refuse {
+  margin-left: 20px;
+  border: 1px solid #10a645;
+  background: none;
+  color: #10a645;
+  box-shadow: 0 5px 30px rgba(44, 185, 94, 0.2);
+}
+.cancel {
+  margin-left: 20px;
+  border: 1px solid #ff7c00;
+  background: #ff9000;
+  background-image: linear-gradient(-45deg, #ff9000, #ff7b03);
+  box-shadow: 0 5px 30px rgba(255, 128, 14, 0.2);
+}
+.upload {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  width: 111px;
+  height: 34px;
+  line-height: 34px;
+  color: #50be76;
+  border: 1px solid #50be76;
+  border-radius: 17px;
+  box-shadow: 0 5px 30px rgba(80, 190, 118, 0.2);
+  background-color: transparent;
+}
+.stayUpload {
+  cursor: pointer;
+  text-align: center;
+}
+.stayUpload::after {
+  display: inline-block;
+  margin-top: 18px;
+  content: '+';
+  color: #149853;
+  font-size: 100px;
+}
+.delFJ {
+  position: absolute;
+  top: -9px;
+  right: -9px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 100%;
+  background-color: #ff8302;
+}
+.delFJ::after {
+  content: 'x';
+}
+.layui-form-radio {
+  margin: 6px 39px 0 0;
+}
+.layui-form-radio span,
+.layui-form-radio i {
+  color: #038c4a;
+}
+.layui-form-radio i {
+  font-size: 12px;
+}
+.layui-form-radio:hover i,
+.layui-form-radioed i,
+.layui-form-radio:hover span,
+.layui-form-radioed span {
+  color: #fea50c !important;
+}
+.product-title {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #bdd9ca;
+}
+.product-title i {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  background: url("../img/titleicon.png") no-repeat;
+}
+.product-title span {
+  padding-left: 35px;
+  font-size: 16px;
+  color: #2aa161;
+  font-weight: bold;
+}

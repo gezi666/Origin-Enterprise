@@ -1,0 +1,133 @@
+.product-title {
+  margin-bottom: 30px;
+}
+.layui-form li {
+  text-align: center;
+  float: none;
+}
+.layui-form li span.l-title {
+  width: 85px;
+  float: none;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.layui-form li .c-input {
+  width: 50%;
+}
+.layui-form li .c-input2 {
+  width: 138px;
+}
+.layui-form li .layui-input-block {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  text-align: left;
+}
+.layui-form li .layui-form-select {
+  width: 50%;
+}
+.layui-form li .start,
+.layui-form li .end {
+  display: inline-block;
+  position: relative;
+}
+.layui-form li .start i.cal,
+.layui-form li .end i.cal {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  width: 19px;
+  height: 18px;
+  background: url(../../../img/calender.png) no-repeat;
+  cursor: pointer;
+}
+.layui-form .autoLine {
+  height: auto;
+}
+.layui-form .centerArea {
+  display: inline-block;
+  width: calc( 50% + 85px );
+}
+.layui-form .centerArea span.l-title {
+  width: 85px;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.layui-form .centerArea .c-area,
+.layui-form .centerArea .pic {
+  width: calc( 100% - 90px );
+}
+.layui-form .centerArea .pic {
+  display: inline-block;
+}
+.layui-form .enclosureCon {
+  text-align: left;
+}
+.layui-form .enclosureCon li {
+  width: 120px;
+  height: auto;
+  position: relative;
+  margin-bottom: 0;
+}
+.layui-form .alreadyUpload {
+  margin: 0;
+  margin-right: 10px;
+}
+.form-item li.w50 {
+  width: 40%;
+  margin-left: 40px;
+  position: relative;
+}
+.form-item li.alignL {
+  text-align: left;
+}
+.form-item li.alignL .w623 {
+  width: 623px;
+}
+.add {
+  position: absolute;
+  margin-left: 20px;
+  display: inline-block;
+  width: 110px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  padding: 6px 0px;
+  box-shadow: 0 0 10px #dbf2e6;
+  color: #44b669;
+  background: none;
+  border: 1px solid #44b669;
+}
+.add i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: url(../../../img/add.png) no-repeat;
+}
+i.cal {
+  position: absolute;
+  right: 66px;
+  top: 6px;
+  width: 19px;
+  height: 18px;
+  background: url(../../../img/calender.png) no-repeat;
+  cursor: pointer;
+}
+.layui-form li span.ml87 {
+  margin-left: 87px !important;
+  float: none;
+  margin-right: 0px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.layui-form li.ie9 span.l-title {
+  width: 85px;
+  float: left;
+  margin-left: 198px;
+  margin-right: -198px;
+}

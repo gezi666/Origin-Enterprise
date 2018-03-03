@@ -1,0 +1,89 @@
+@import '../../common.css';
+@import '../../layout.css';
+@import '../../form.css';
+.layui-form li {
+  text-align: center;
+  float: none;
+}
+.layui-form li .c-input {
+  width: 50%;
+}
+.layui-form li .layui-input-block {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  text-align: left;
+}
+.layui-form .autoLine {
+  height: auto;
+}
+.layui-form .centerArea {
+  display: inline-block;
+  width: calc( 50% + 70px );
+}
+.layui-form .centerArea .c-area,
+.layui-form .centerArea .pic {
+  width: calc( 100% - 70px );
+}
+.layui-form .centerArea .pic {
+  display: inline-block;
+}
+.layui-form .enclosureCon {
+  text-align: left;
+}
+.layui-form .enclosureCon li {
+  width: 120px;
+  position: relative;
+  margin-bottom: 0;
+}
+.layui-form .alreadyUpload {
+  margin: 0;
+  margin-right: 10px;
+  height: auto;
+}
+.content .con-top .sel-area .sel-left .l-title {
+  line-height: 32px;
+}
+.content .con-top .sel-area .sel-left input {
+  height: 32px;
+}
+.content .con-top .sel-area .sel-left input.c-input {
+  height: 30px;
+}
+.content .con-top .btn-area div {
+  width: 110px;
+  padding: 7px 0;
+}
+.content .con-top .btn-area div.search i {
+  left: 20px;
+}
+.content .con-top .btn-area div.add {
+  width: 110px;
+}
+.content .con-top .btn-area div.add a {
+  color: #44b669;
+}
+.layui-form-select {
+  display: inline-block;
+}
+.layui-form-select input {
+  height: 32px;
+}
+.layui-form-select .layui-edge {
+  border-top-color: #fff;
+  z-index: 1000;
+}
+.layui-form-select::after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 32px;
+  background-color: #2aa161;
+  border: 0;
+  top: 0px;
+  right: 0px;
+  border-color: #10a645;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
